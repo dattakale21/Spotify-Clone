@@ -124,4 +124,4 @@ document.getElementById('previous').addEventListener('click', () => {    // --> 
 
 
 
-// By Nikhil, Shreeyash, Divesh, Anuj & Datta.
+// By Nikhil, Shriyash, Divyesh, Anuj & Datta.
