@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+body {
+    background-color: rgb(245, 188, 223);
+    background-image: url('bg33.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 12px;
+    z-index: 10;
+}
+
+#ho a {
+    padding-left: 73px;
+    font-size: 21px;
+    z-index: 10;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+#ho:hover {
+    font-size: 23px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.brand img {
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    border: 2px solid rgb(139, 139, 131);
+    width: 83vw;
+    height: 77vh;
+    margin: auto auto;
+    margin-top: 32px;
+    border-radius: 10px;
+    padding: 0px 61px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 23px;
+}
+
+
+.container div {
+    size: 47px;
+    padding: 5px 0px;
+    margin: -7px -7px;
+    border-radius: 9px;
+    font-size: 16px;
+    margin-top: 23px;
+}
+
+.con {
+    font-size: 23px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    font-style: none;
+    word-spacing: 3px;
+    letter-spacing: 0.5px;
+
+}
+
+
+
+#foot {
+    height: 6.2vh;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+#foot h2 {
+    color: white;
+    font-size: 15px;
+    margin-left: 54px;
+    padding-top: 2px;
+    text-align: center;
+}
+
+
+#foot h2 a {
+    color: white;
+    margin-right: -532px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.head h1 {
+    font-size: 45px;
+    text-align: center;
+    margin-top: -89px;
+}
+
+.options {
+    /* border: 2px solid rgb(227, 210, 210); */
+    padding: 40px 20px;
+    margin-top: 40px;
+    height: 30vh;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+#form2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#form2 label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 1.7rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+}
+
+#op {
+    width: 415px;
+    height: 32px;
+    font-size: 23px;
+    border-radius: 8px;
+    border: 1px solid white;
+    margin: 11px 0px;
+    margin-left: 35px;
+
+}
+
+label {
+    font-size: 25px;
+}
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: 1px solid white;
+    outline: none;
+    color: white;
+    padding: 5px 12px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 16px;
+    font-size: 20px;
+    margin-top: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: bold;
+    background-color: rgb(39, 37, 37);
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+.dropdown .dropbtn:hover{
+    padding: 6px 13px;
+    border:1px solid #fff;
+    background-color: rgb(134, 128, 128);
+
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(227, 229, 238);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 12px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    margin-top: 58px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 6px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 23px;
+    border: 1px solid gray;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
