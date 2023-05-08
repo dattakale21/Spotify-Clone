@@ -28,18 +28,24 @@ nav ul {
 
 nav ul li {
     padding: 0 12px;
-}
-#ho{
-    padding-left:73px;
-    font-size:21px;
+    z-index: 10;
 }
 
-#ho:hover{
-    
-    font-size:23px;
+#ho a{
+    padding-left: 73px;
+    font-size: 21px;
+    z-index: 10;
+    color:#fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+#ho:hover {
+    font-size: 23px;
     font-weight: bolder;
     cursor: pointer;
 }
+
 .brand img {
     width: 44px;
     padding: 0 8px;
@@ -63,7 +69,7 @@ nav ul li {
     border-radius: 12px;
 
     padding: 34px;
-    background-image:url('bg33.jpg');
+    background-image: url('bg33.jpg');
     background-repeat: no-repeat;
     background-position: center;
 
@@ -74,7 +80,7 @@ nav ul li {
 .bottom {
     position: sticky;
     bottom: 0;
-    height: 105px;
+    height: 120px;
     background-color: black;
     color: white;
     display: flex;
@@ -97,9 +103,10 @@ nav ul li {
     cursor: pointer;
     margin-top: -33px;
 }
-#masterplay{
-    size:45px;
- }
+
+#masterplay {
+    size: 45px;
+}
 
 
 
@@ -122,10 +129,10 @@ nav ul li {
     border-radius: 34px;
 }
 
-.songItem:hover{
-   box-shadow: 4px 4px rgb(194, 237, 156);
-   background-color:rgb(231, 219, 219);
-   
+.songItem:hover {
+    box-shadow: 4px 4px rgb(194, 237, 156);
+    background-color: rgb(231, 219, 219);
+
 
 }
 
@@ -147,9 +154,10 @@ nav ul li {
     position: absolute;
     left: 10vw;
     font-family: 'Varela Round', sans-serif;
-    margin-bottom:-21px;
+    margin-bottom: -21px;
 }
-.songInfo img{
+
+.songInfo img {
     height: 26px;
 }
 
@@ -163,3 +171,7 @@ nav ul li {
         background-color: red;
     }
 }
+
+
+
+/* By Nikhil, Shreeyash, Divesh, Anuj & Datta. */
