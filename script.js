@@ -78,7 +78,7 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element) =>
         songIndex = parseInt(e.target.id);
         e.target.classList.remove('fa-play-circle');
         e.target.classList.add('fa-pause-circle');
-        audioElement.src = `songs/${songIndex+1}.mp3`;    // ---> when clicked on the song then play the particular song, here we have used the $ sign because we have written the statement inside the back ticks(`   `).
+        audioElement.src = `songs/${songIndex + 1}.mp3`;    // ---> when clicked on the song then play the particular song, here we have used the $ sign because we have written the statement inside the back ticks(`   `).
         masterSongName.innerText = songs[songIndex].songName;
         audioElement.currentTime = 0;   // --> the song will play from starting means the currentTime of the song is now 0
         audioElement.play();  // --> when clicked then play the song.
@@ -124,4 +124,5 @@ document.getElementById('previous').addEventListener('click', () => {    // --> 
 
 
 
-// By Nikhil, Shriyash, Divyesh, Anuj & Datta.
+// By Datta kale 
+

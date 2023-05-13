@@ -31,11 +31,11 @@ nav ul li {
     z-index: 10;
 }
 
-#ho a{
+#ho a {
     padding-left: 73px;
     font-size: 21px;
     z-index: 10;
-    color:#fff;
+    color: #fff;
     list-style: none;
     text-decoration: none;
 }
@@ -67,15 +67,11 @@ nav ul li {
     margin: 23px auto;
     width: 80%;
     border-radius: 12px;
-
     padding: 34px;
     background-image: url('bg33.jpg');
     background-repeat: no-repeat;
     background-position: center;
-
 }
-
-
 
 .bottom {
     position: sticky;
@@ -108,9 +104,6 @@ nav ul li {
     size: 45px;
 }
 
-
-
-
 /* ----------------------------- */
 
 .songItemContainer {
@@ -121,7 +114,6 @@ nav ul li {
     height: 40px;
     display: flex;
     background-color: white;
-
     color: black;
     margin: 12px 0;
     justify-content: space-between;
@@ -132,8 +124,6 @@ nav ul li {
 .songItem:hover {
     box-shadow: 4px 4px rgb(194, 237, 156);
     background-color: rgb(231, 219, 219);
-
-
 }
 
 .songItem img {
@@ -198,16 +188,13 @@ nav ul li {
     background-color: rgb(39, 37, 37);
     border-radius: 8px;
     cursor: pointer;
-    
 }
 
-.dropdown .dropbtn:hover{
+.dropdown .dropbtn:hover {
     padding: 6px 13px;
-    border:1px solid #fff;
+    border: 1px solid #fff;
     background-color: rgb(134, 128, 128);
-
 }
-
 
 .dropdown-content {
     display: none;
@@ -247,4 +234,4 @@ nav ul li {
     display: block;
 }
 
-/* By Nikhil, Shriyash, Divyesh, Anuj & Datta. */
+/* By Datta kale */

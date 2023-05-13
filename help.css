@@ -77,7 +77,6 @@ nav ul li {
     font-size: 23px;
 }
 
-
 .container div {
     size: 47px;
     padding: 5px 0px;
@@ -101,8 +100,6 @@ h1 {
 
 }
 
-
-
 #foot {
     height: 6.2vh;
     display: flex;
@@ -123,7 +120,6 @@ h1 {
     text-align: center;
 }
 
-
 #foot h2 a {
     color: white;
     margin-right: -532px;
@@ -139,20 +135,15 @@ h1 {
 }
 
 .options {
-    /* border: 2px solid rgb(227, 210, 210); */
     padding: 40px 20px;
     margin-top: 40px;
     height: 30vh;
-    /* display: flex;
-    flex-direction: column; */
 }
 
 #form2 {
     display: flex;
     flex-direction: column;
 }
-
-
 
 #form2 label {
     display: flex;
@@ -208,16 +199,15 @@ label {
     background-color: rgb(39, 37, 37);
     border-radius: 8px;
     cursor: pointer;
-    
+
 }
 
-.dropdown .dropbtn:hover{
+.dropdown .dropbtn:hover {
     padding: 6px 13px;
-    border:1px solid #fff;
+    border: 1px solid #fff;
     background-color: rgb(134, 128, 128);
 
 }
-
 
 .dropdown-content {
     display: none;
@@ -257,4 +247,24 @@ label {
     display: block;
 }
 
- /* By Nikhil, Shriyash, Divyesh, Anuj & Datta.  */
+#da {
+    size: 64px;
+    padding: 10px 38px;
+    margin: 9px auto;
+    border: 1px solid rgb(34, 33, 33);
+    border-radius: 9px;
+    background-color: rgba(197, 202, 206, 0.953);
+    font-size: 19px;
+    display: flex;
+    margin-top: 60px;
+}
+
+#da:hover {
+    background-color: rgb(158, 158, 155);
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 2px solid #fff;
+    border: 1px solid #fff;
+}
+
+/* By Datta kale */

@@ -15,7 +15,7 @@ body {
 }
 
 nav {
-    display:flex;
+    display: flex;
     flex-direction: row;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -34,11 +34,11 @@ nav ul li {
     z-index: 10;
 }
 
-#ho a{
+#ho a {
     padding-left: 73px;
     font-size: 21px;
     z-index: 10;
-    color:#fff;
+    color: #fff;
     list-style: none;
     text-decoration: none;
 }
@@ -73,9 +73,7 @@ nav ul li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
-
 
 .container div {
     size: 47px;
@@ -86,8 +84,6 @@ nav ul li {
 }
 
 .form-group input {
-       /* padding: 20px 40px; */
-    /* padding: 20px 40px; */
     font-size: 17px;
     padding: 10px 83px;
     border-radius: 8px;
@@ -108,7 +104,6 @@ nav ul li {
     box-shadow: 1px 1px rgb(222, 220, 220);
 }
 
-
 #da {
     size: 47px;
     padding: 7px 32px;
@@ -118,8 +113,6 @@ nav ul li {
     background-color: rgba(197, 202, 206, 0.953);
     font-size: 19px;
     display: flex;
-    
-  
 }
 
 #da:hover {
@@ -127,18 +120,17 @@ nav ul li {
     cursor: pointer;
     font-size: 18px;
     border-radius: 2px solid #fff;
-    border:1px solid #fff;
+    border: 1px solid #fff;
 }
 
 .container h1 {
-    color:#fff;
+    color: #fff;
     font-size: 51px;
     padding: -40px 3px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin:5px 0px;
-
+    margin: 5px 0px;
 }
 
 #foot {
@@ -150,27 +142,24 @@ nav ul li {
     justify-content: center;
     align-items: center;
     margin-top: 24px;
-   }
-   
-   #foot h2 {
+}
+
+#foot h2 {
     color: white;
     font-size: 15px;
     margin-left: 54px;
     padding-top: 2px;
     text-align: center;
-   }
-   
-   
-   #foot h2 a {
+}
+
+#foot h2 a {
     color: white;
     margin-right: -532px;
     cursor: pointer;
     text-decoration: none;
-   
-   }
-   
+}
 
-   .dropdown {
+.dropdown {
     float: left;
     overflow: hidden;
 }
@@ -196,16 +185,13 @@ nav ul li {
     background-color: rgb(39, 37, 37);
     border-radius: 8px;
     cursor: pointer;
-    
 }
 
-.dropdown .dropbtn:hover{
+.dropdown .dropbtn:hover {
     padding: 6px 13px;
-    border:1px solid #fff;
+    border: 1px solid #fff;
     background-color: rgb(134, 128, 128);
-
 }
-
 
 .dropdown-content {
     display: none;
@@ -245,4 +231,4 @@ nav ul li {
     display: block;
 }
 
-/* By Nikhil, Shreeyash, Divesh, Anuj & Datta.  */
+/* By Datta kale */
