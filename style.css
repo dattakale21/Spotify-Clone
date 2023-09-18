@@ -11,10 +11,16 @@ body {
 * {
     margin: 0;
     padding: 0;
+    /* box-sizing: border-box; */
 }
 
 nav {
     font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar.active {
+    display: block;
+    transition: 0.11s ease;
 }
 
 nav ul {
@@ -26,18 +32,28 @@ nav ul {
     color: white;
 }
 
-nav ul li {
+/* nav ul li {
     padding: 0 12px;
     z-index: 10;
+} */
+
+#ho {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-#ho a {
-    padding-left: 73px;
-    font-size: 21px;
-    z-index: 10;
+#ho li a {
+    display: flex;
+    font-size: 1.3rem;
     color: #fff;
     list-style: none;
     text-decoration: none;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 1.2rem
 }
 
 #ho:hover {
@@ -47,8 +63,9 @@ nav ul li {
 }
 
 .brand img {
-    width: 44px;
-    padding: 0 8px;
+    width: 2rem;
+    padding: 0 0.2rem;
+    padding-left: 1.6rem;
 }
 
 .brand {
@@ -56,6 +73,7 @@ nav ul li {
     align-items: center;
     font-weight: bolder;
     font-size: 1.3rem;
+    drop
 }
 
 .container {
@@ -156,23 +174,18 @@ nav ul li {
     transition: opacity 0.4s ease-in;
 }
 
-@media only screen and (max-width: 1100px) {
-    body {
-        background-color: red;
-    }
-}
 
 .dropdown {
     float: left;
     overflow: hidden;
+    appearance: none;
 }
 
 .dropdown .dropbtn {
-    font-size: 16px;
     border: 1px solid white;
     outline: none;
     color: white;
-    padding: 5px 12px;
+    padding: 0.2rem 0.2rem;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -181,19 +194,22 @@ nav ul li {
     align-items: center;
     position: absolute;
     right: 9px;
-    font-size: 20px;
+    font-size: 1.1rem;
     margin-top: -51px;
     font-family: 'Ubuntu', sans-serif;
     font-style: bold;
     background-color: rgb(39, 37, 37);
     border-radius: 8px;
     cursor: pointer;
+    margin-right: 0.5rem;
+    appearance: none;
 }
 
 .dropdown .dropbtn:hover {
-    padding: 6px 13px;
+    padding: 0.3rem;
     border: 1px solid #fff;
     background-color: rgb(134, 128, 128);
+    appearance: none;
 }
 
 .dropdown-content {
@@ -208,22 +224,24 @@ nav ul li {
     justify-content: center;
     align-items: center;
     position: absolute;
-    right: 0;
+    right: 0.5rem;
     margin-top: 1px;
+    background-color: rgb(251, 238, 255);
+    appearance: none;
 }
 
 .dropdown-content a {
     float: none;
     color: black;
-    padding: 6px 16px;
+    padding: 0.3rem 0.11rem;
     text-decoration: none;
     display: block;
     text-align: left;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 23px;
-    border: 1px solid gray;
+    font-size: 1rem;
+    border: 0.11rem solid pink;
 }
 
 .dropdown-content a:hover {
@@ -233,5 +251,443 @@ nav ul li {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+/* .menu{
+    position: absolute;
+    right: 1rem;
+}
+ #menu-icon i {
+    filter:invert(100%);
+    color: #fff;
+    font-size: 3.4rem;
+
+} */
+
+.menu {
+    position: absolute;
+    right: 1rem;
+    top: 0.9rem;
+    display: none;
+}
+
+.menu i {
+    font-size: 2rem;
+    /* Adjust the size as needed */
+    color: white;
+    /* Icon color */
+}
+
+/* Add this to your CSS */
+.hidden {
+    display: none;
+}
+
+.menu-list {
+    width: 100vw;
+    height: 40vh;
+    /* Allow the height to adjust based on content */
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Add background color for visibility */
+
+}
+
+.menu-list #ho {
+    /* border: 0.1rem solid black; Reduce border size for better visibility */
+    margin-left: -10rem;
+}
+
+.menu-list #ho a {
+    padding: 1rem 2rem;
+    display: block;
+    /* Ensure the anchor takes the full width */
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+
+/* ------------------------------------------------------------------------------ */
+
+@media (max-width: 1100px) {
+    body {
+        background-color: rgb(214, 220, 252);
+    }
+
+    /* #ho {
+        position: absolute;
+        top: 3.7rem;
+        left: 0;
+        width: 94%;
+        padding: 1rem 3%;
+        background-color: rgb(255, 156, 173);
+        border-top: .2rem solid pink;
+        box-sizing: 0 .5rem 1rem pink;
+    }
+    #ho li a{
+        display:block;
+    
+    } */
+
+    @media (max-width: 1100px) {
+        #ho {
+            position: absolute;
+            top: 4.1rem;
+            left: 0;
+            flex-direction: column;
+            align-items: center;
+            height: 26%;
+            width: 100%;
+            background-color: pink;
+            display: none;
+        }
+
+        #ho li a {
+
+            padding: 0.2rem 0;
+            text-align: left;
+        }
+    }
+
+}
+
+
+@media (max-width:1110px) {
+    .menu {
+        display: block;
+
+    }
+
+    html {
+        font-size: 95%;
+    }
+
+    nav ul {
+        height: 7vh;
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    nav ul {
+        background-color: rgb(255, 156, 173);
+    }
+
+    .menu {
+        right: 1rem;
+        top: 0.5rem;
+    }
+
+    .menu i {
+        font-size: 1.2rem;
+        /* Adjust the size as needed */
+        color: white;
+        /* Icon color */
+    }
+
+    .brand {
+        font-size: 100%;
+    }
+
+    .brand img {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+
+    .bottom {
+
+        height: 16vh;
+
+    }
+
+    .icons {
+        margin-top: 14px;
+        margin-bottom: -31px;
+    }
+
+    .icons i {
+        cursor: pointer;
+        font-size: 2rem;
+    }
+
+    #myProgressBar {
+        width: 70vw;
+        cursor: pointer;
+        margin-top: -33px;
+        height: 0.3rem;
+    }
+
+    #masterplay {
+        size: 2rem;
+    }
+
+
+    .songInfo {
+        left: 16vw;
+        font-size: 1rem;
+        margin-bottom: -21px;
+    }
+
+    .songInfo img {
+        height: 1.4rem;
+        margin-right: 0.7rem;
+    }
+
+    .songInfo img {
+        opacity: 0;
+        transition: opacity 0.4s ease-in;
+    }
+
+    .songItem {
+        height: 2rem;
+    }
+
+    .songItem img {
+        width: 1.6rem;
+        margin: 0 5px;
+        border-radius: 34px;
+    }
+
+    .songItemContainer {}
+
+}
+
+
+@media (max-width:1024px) {
+    html {
+        font-size: 80%;
+    }
+
+    .menu {
+        right: 1rem;
+        top: 0.8rem;
+    }
+
+    .container {
+        height: 100vh;
+    }
+
+
+}
+
+
+@media (max-width:770px) {
+    .container {
+        height: 88vh;
+        width: 83vw;
+    }
+
+    .songList {
+        margin: 0 auto;
+    }
+
+    .songItemContainer {
+        width: 80vw;
+    }
+
+    .songName {
+        letter-spacing: 0.1rem;
+        word-spacing: 0.3=2rem;
+    }
+
+    body {
+        background-image: none;
+    }
+}
+
+@media (max-width:426px) {
+    html {
+        font-size: 70%;
+    }
+
+    .container {
+        height: 40vh;
+        width: 40vw;
+        margin: 1rem 0.2rem;
+    }
+
+    .songList h1 {
+        font-size: 1.8rem;
+    }
+
+    body {
+        background-image: none;
+    }
+
+    .songInfo {
+
+        left: 16vw;
+        font-size: 1rem;
+        margin-bottom: -21px;
+    }
+
+    .songInfo img {
+        position: absolute;
+        right: -19rem;
+        height: 1.2rem;
+        width: 2rem;
+        margin-right: 0.7rem;
+    }
+
+    .bottom {
+
+        height: 13vh;
+
+    }
+}
+
+@media (max-width:770px) {
+    .container {
+        height: 100vh;
+        width: 83vw;
+    }
+}
+
+@media (max-width:376px) {
+    html {
+        font-size: 60%;
+    }
+
+    nav ul {
+        margin-right: -0.5rem;
+        height: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .container {
+        margin: 1rem auto;
+        height: 26vh;
+    }
+
+    .bottom {
+        margin-right: -0.5rem;
+    }
+
+    .songList {
+        /* margin-bottom: -4rem; */
+
+    }
+
+    .songInfo img {
+
+        right: -21rem;
+
+    }
+}
+
+
+@media (max-width:376px) {
+
+    html{
+        font-size: 50%;
+    }
+    .container {
+        /* margin: 1rem auto; */
+        height: 66vh;
+    }
+
+    nav ul {
+        margin-right: -2rem;
+        height: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .bottom {
+        height: 10vh;
+        margin-right: -2rem;
+    }
+
+    #myProgressBar {
+        width: 74vw;
+        margin-top: -3.6rem;
+        height: 0.2rem;
+    }
+
+    .songInfo img {
+
+        right: -23rem;
+
+    }
+
+    .songList h1{
+        font-size: 1.9rem;
+        margin:0 auto;
+        margin-bottom: -3rem;
+    }
+    .songList{
+        margin-top: -2rem;
+    }
+
+    .songItem{
+        height: 2.6rem;
+    }
+
+    .menu {
+        right: -0.3rem;
+        top: 0.8rem;
+    }
+}
+
+@media (max-height:914px) {
+    html{
+        font-size: 70%;
+        height: 100vh;
+    }
+    .container {
+       margin-left: 1.11rem;
+        height:30vh;
+        
+    }
+
+    nav ul {
+        margin-right: -2rem;
+        height: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .bottom {
+        height: 10vh;
+        margin-right: -2rem;
+        margin-bottom: -15rem;
+    }
+
+    #myProgressBar {
+        width: 74vw;
+        margin-top: -3.6rem;
+        height: 0.2rem;
+    }
+
+    .songInfo img {
+
+        right: -23rem;
+
+    }
+
+    .songList h1{
+        font-size: 1.7rem;
+        margin:0 auto;
+        margin-bottom: -1rem;
+        margin-top: 2rem;
+    }
+    .songList{
+        margin-top: -2rem;
+    }
+
+    .songItem{
+        height: 2.6rem;
+    }
+
+    .menu {
+        right: -0.3rem;
+        top: 0.8rem;
+    }
+
+}
+
+
 
 /* By Datta kale */
