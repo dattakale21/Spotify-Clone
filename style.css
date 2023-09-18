@@ -465,105 +465,30 @@ nav ul {
 
 }
 
-
-
-
-
-
-
-@media (max-width:770px) {
-    .container {
-        height: 100vh;
-        width: 83vw;
-    }
-}
-
-@media (max-width:376px) {
+@media (max-width:1024px) {
     html {
-        font-size: 60%;
-    }
-
-    nav ul {
-        margin-right: -0.5rem;
-        height: 3rem;
-        margin-bottom: 1rem;
-    }
-
-    .container {
-        margin: 1rem auto;
-        height: 26vh;
-    }
-
-    .bottom {
-        margin-right: -0.5rem;
-    }
-
-    .songList {
-        /* margin-bottom: -4rem; */
-
-    }
-
-    .songInfo img {
-
-        right: -21rem;
-
-    }
-}
-
-
-@media (max-width:376px) {
-
-    html {
-        font-size: 50%;
-    }
-
-    .container {
-        margin: 1rem auto;
-        height: 66vh;
-
-    }
-
-    nav ul {
-        margin-right: -2rem;
-        height: 3rem;
-        margin-bottom: 1rem;
-    }
-
-    .bottom {
-        height: 10vh;
-        margin-right: -2rem;
-    }
-
-    #myProgressBar {
-        width: 74vw;
-        margin-top: -3.6rem;
-        height: 0.2rem;
-    }
-
-    .songInfo img {
-
-        right: -23rem;
-
-    }
-
-    .songList h1 {
-        font-size: 1.9rem;
-        margin: 0 auto;
-        margin-bottom: -3rem;
-    }
-
-    .songList {
-        margin-top: -2rem;
-    }
-
-    .songItem {
-        height: 2.6rem;
+        font-size: 70%;
     }
 
     .menu {
-        right: -0.3rem;
+        right: 1rem;
         top: 0.8rem;
     }
+
+    .container {
+        height: 83vh;
+    }
+
+    .dropdown {
+        margin-top: 1.1rem;
+    }
+
+    nav ul li {
+        padding: 0 2rem;
+    }
+
+
+
 }
 
 @media (max-height:914px) {
@@ -646,31 +571,7 @@ nav ul {
 }
 
 
-@media (max-width:1024px) {
-    html {
-        font-size: 70%;
-    }
 
-    .menu {
-        right: 1rem;
-        top: 0.8rem;
-    }
-
-    .container {
-        height: 83vh;
-    }
-
-    .dropdown {
-        margin-top: 1.1rem;
-    }
-
-    nav ul li {
-        padding: 0 2rem;
-    }
-
-
-
-}
 
 @media (max-width:770px) {
     .container {
@@ -691,6 +592,16 @@ nav ul {
 
     .songItemContainer {
         width: 80vw;
+    }
+
+    nav ul {
+        height: 6vh;
+        font-size: 2.9rem;
+    }
+
+    #ho li a,
+    .brand {
+        font-size: 2rem;
     }
 
 
@@ -737,8 +648,11 @@ nav ul {
         height: 100vh;
         width: 100vw;
         margin: 0 0.2rem;
-        margin-left: -0.1rem;
+        margin-left: 0.1rem;
+        margin-top: -1rem;
+        border-top: 1px solid rgb(57, 41, 79);
     }
+
 
     #ho {
         display: none;
@@ -776,17 +690,20 @@ nav ul {
 
     .songInfo {
 
-        left: 16vw;
+        left: 15vw;
         font-size: 1rem;
-        margin-bottom: -21px;
+        margin-top: 1rem;
+
+
     }
 
     .songInfo img {
         position: absolute;
-        right: -19rem;
-        height: 1.2rem;
-        width: 2rem;
-        margin-right: 0.7rem;
+        right: -27rem;
+        height: 1.6rem;
+        width: 3rem;
+        margin-right: -6.3rem;
+        margin-top: -0.6rem;
     }
 
     .bottom {
@@ -808,9 +725,296 @@ nav ul {
         display: none;
     }
 
+    .icons i {
+        font-size: 3rem;
+    }
+
     .menu {
         display: block;
     }
+
+    .menu i {
+        font-size: 2rem;
+        margin-top: 0.6rem;
+    }
+}
+
+@media (max-width:376px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .container {
+        margin: 1rem auto;
+        height: 95vh;
+        margin-top: -1rem;
+        border-top: 2px solid rgb(138, 138, 161);
+
+    }
+
+    nav ul {
+        margin-right: -2rem;
+        height: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .bottom {
+        height: 13vh;
+        margin-right: -2rem;
+    }
+
+    #myProgressBar {
+        width: 89vw;
+        margin-top: -3.6rem;
+        height: 0.2rem;
+    }
+
+    .songInfo img {
+
+        right: -19rem;
+
+    }
+
+    .icons i {
+        font-size: 2.4rem;
+    }
+
+    .songInfo {
+        left: 8vw;
+        margin-top: -0.4rem;
+        font-size: 0.8rem;
+        padding: 0 2rem;
+    }
+
+    .songList h1 {
+        font-size: 1.9rem;
+        margin: 0 auto;
+        margin-bottom: -3rem;
+    }
+
+    .songList {
+        margin-top: -2rem;
+    }
+
+    .songItem {
+        height: 2.6rem;
+    }
+
+    .menu {
+        /* right: rem; */
+        top: 0.8rem;
+    }
+
+    #ho1 {
+        margin-top: 14rem;
+        height: 18vh;
+    }
+
+    #ho1 li a {
+        /* padding:-0.9rem 0; */
+        font-size: 1.5rem;
+    }
+
+    .menu i {
+        font-size: 2rem;
+        margin-top: -0.3rem;
+    }
+}
+
+@media (max-width:320px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .container {
+        margin: 1rem auto;
+        height: 95vh;
+        margin-top: -1rem;
+        border-top: 2px solid rgb(138, 138, 161);
+    }
+
+    nav ul {
+        margin-right: -2rem;
+        height: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .bottom {
+        height: 13vh;
+        margin-right: -2rem;
+    }
+
+    #myProgressBar {
+        width: 89vw;
+        margin-top: -3.6rem;
+        height: 0.2rem;
+    }
+
+    .songInfo img {
+
+        right: -12rem;
+
+    }
+
+    .songInfo {
+        left: -0.111vw;
+        margin-top: -0.4rem;
+        font-size: 0.8rem;
+        padding: 0 2rem;
+    }
+
+    .songList h1 {
+        font-size: 1.7rem;
+        margin: 0 auto;
+        margin-bottom: -3rem;
+    }
+
+
+
+    .songList {
+        margin-top: -2rem;
+        margin-left: -0.3rem;
+    }
+
+    .songItem {
+        height: 2.6rem;
+    }
+
+    .menu {
+        /* right: rem; */
+        top: 0.8rem;
+    }
+
+    #ho1 {
+        margin-top: 14rem;
+        height: 18vh;
+    }
+
+    #ho1 li a {
+        /* padding:-0.9rem 0; */
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:290px) {
+    html {
+        font-size: 40%;
+    }
+
+    .songList h1 {
+        font-size: 2rem;
+        margin: 0 auto;
+        margin-bottom: -3rem;
+    }
+
+    .songList {
+        margin-top: -2rem;
+        margin-left: -0.9rem;
+    }
+}
+
+@media (max-width:413px) and (max-height:914px) {
+    html {
+        font-size: 75%;
+    }
+
+    .container {
+        margin: 1rem auto;
+        height: 90vh;
+        margin-top: -1rem;
+        border-top: 2px solid rgb(138, 138, 161);
+    }
+
+    nav ul {
+        margin-right: -2rem;
+        height: 5rem;
+        margin-bottom: 1rem;
+    }
+
+    .icons {
+        margin-top: 3rem;
+    }
+
+    .icons i {
+        margin: 0 -1rem;
+        font-size: 3rem;
+    }
+
+    .bottom {
+        height: 13vh;
+        margin-right: -2rem;
+        margin-top: -3rem;
+    }
+
+    #myProgressBar {
+        width: 89vw;
+        margin-top: -3.6rem;
+        height: 0.2rem;
+    }
+
+    .songInfo img {
+
+        left: 30rem;
+    }
+
+    .songItem {
+        height: 3.6rem;
+    }
+
+    .songInfo {
+        left: -3.111vw;
+        margin-top: 0.6rem;
+        font-size: 0.8rem;
+        padding: 0 2rem;
+    }
+
+    .songList h1 {
+        font-size: 1.6rem;
+        margin: 0 auto;
+        margin-bottom: -3rem;
+        margin-top: -1rem;
+    }
+
+    .songItemContainer {
+        margin-top: 8rem;
+    }
+
+    .songList {
+        margin-top: 2rem;
+        /* margin-left: -0.3rem; */
+        height: 4rem;
+        margin-left: 2.3%;
+    }
+
+    .songItem {
+        height: 3.6rem;
+    }
+
+    .songName {
+        /* font-size: 1rem; */
+    }
+
+    .menu {
+        /* right: rem; */
+        top: 0.8rem;
+    }
+
+    #ho1 {
+        margin-top: 14rem;
+        height: 18vh;
+    }
+
+    #ho1 li a {
+        /* padding:-0.9rem 0; */
+        font-size: 1.5rem;
+    }
+
+    #last {
+        margin-bottom: -45rem;
+    }
+
 }
 
 

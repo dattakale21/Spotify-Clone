@@ -168,7 +168,7 @@ menuIcon.addEventListener('click', () => {
 document.addEventListener("DOMContentLoaded", function () {
     const menuIcon = document.querySelector(".menu i");
     const cross = document.querySelector(".cross i");
-    const ho1 = document.querySelector("#ho1"); // Select the element to toggle
+    let ho1 = document.querySelector("#ho1"); // Select the element to toggle
 
     menuIcon.addEventListener("click", function () {
         ho1.style.display = "block"; // Display the element when menu icon is clicked
