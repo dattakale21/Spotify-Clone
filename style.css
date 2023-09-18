@@ -11,7 +11,7 @@ body {
 * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 nav {
@@ -45,6 +45,10 @@ nav ul {
     align-items: center;
 }
 
+#ho1 {
+    display: none;
+}
+
 #ho li a {
     display: flex;
     font-size: 1.3rem;
@@ -73,7 +77,6 @@ nav ul {
     align-items: center;
     font-weight: bolder;
     font-size: 1.3rem;
-    drop
 }
 
 .container {
@@ -333,17 +336,7 @@ nav ul {
     } */
 
     @media (max-width: 1100px) {
-        #ho {
-            position: absolute;
-            top: 4.1rem;
-            left: 0;
-            flex-direction: column;
-            align-items: center;
-            height: 26%;
-            width: 100%;
-            background-color: pink;
-            display: none;
-        }
+
 
         #ho li a {
 
@@ -355,18 +348,27 @@ nav ul {
 }
 
 
-@media (max-width:1110px) {
+@media (max-width:1440px) {
     .menu {
         display: block;
 
     }
 
+    .songItem {
+        width: 32vw;
+        height: 12vh;
+    }
+
+    .songList h1 {
+        font-size: 2rem;
+    }
+
     html {
-        font-size: 95%;
+        font-size: 110%;
     }
 
     nav ul {
-        height: 7vh;
+        height: 5vh;
     }
 
     .dropdown {
@@ -379,7 +381,7 @@ nav ul {
 
     .menu {
         right: 1rem;
-        top: 0.5rem;
+        top: 0.7rem;
     }
 
     .menu i {
@@ -390,12 +392,17 @@ nav ul {
     }
 
     .brand {
-        font-size: 100%;
+        /* font-size: 100%; */
+        /* margin-left: 2rem; */
     }
 
     .brand img {
         width: 1.6rem;
-        height: 1.6rem;
+        height: 7.6rem;
+    }
+
+    body {
+        background-image: none;
     }
 
     .bottom {
@@ -452,93 +459,17 @@ nav ul {
         border-radius: 34px;
     }
 
-    .songItemContainer {}
-
-}
-
-
-@media (max-width:1024px) {
-    html {
-        font-size: 80%;
-    }
-
-    .menu {
-        right: 1rem;
-        top: 0.8rem;
-    }
-
     .container {
-        height: 100vh;
+        height: 80vh;
     }
-
 
 }
 
 
-@media (max-width:770px) {
-    .container {
-        height: 88vh;
-        width: 83vw;
-    }
 
-    .songList {
-        margin: 0 auto;
-    }
 
-    .songItemContainer {
-        width: 80vw;
-    }
 
-    .songName {
-        letter-spacing: 0.1rem;
-        word-spacing: 0.3=2rem;
-    }
 
-    body {
-        background-image: none;
-    }
-}
-
-@media (max-width:426px) {
-    html {
-        font-size: 70%;
-    }
-
-    .container {
-        height: 40vh;
-        width: 40vw;
-        margin: 1rem 0.2rem;
-    }
-
-    .songList h1 {
-        font-size: 1.8rem;
-    }
-
-    body {
-        background-image: none;
-    }
-
-    .songInfo {
-
-        left: 16vw;
-        font-size: 1rem;
-        margin-bottom: -21px;
-    }
-
-    .songInfo img {
-        position: absolute;
-        right: -19rem;
-        height: 1.2rem;
-        width: 2rem;
-        margin-right: 0.7rem;
-    }
-
-    .bottom {
-
-        height: 13vh;
-
-    }
-}
 
 @media (max-width:770px) {
     .container {
@@ -582,12 +513,14 @@ nav ul {
 
 @media (max-width:376px) {
 
-    html{
+    html {
         font-size: 50%;
     }
+
     .container {
-        /* margin: 1rem auto; */
+        margin: 1rem auto;
         height: 66vh;
+
     }
 
     nav ul {
@@ -613,16 +546,17 @@ nav ul {
 
     }
 
-    .songList h1{
+    .songList h1 {
         font-size: 1.9rem;
-        margin:0 auto;
+        margin: 0 auto;
         margin-bottom: -3rem;
     }
-    .songList{
+
+    .songList {
         margin-top: -2rem;
     }
 
-    .songItem{
+    .songItem {
         height: 2.6rem;
     }
 
@@ -633,31 +567,38 @@ nav ul {
 }
 
 @media (max-height:914px) {
-    html{
-        font-size: 70%;
+    html {
+        font-size: 90%;
         height: 100vh;
     }
+
     .container {
-       margin-left: 1.11rem;
-        height:30vh;
-        
+        /* margin-left: 1.11rem; */
+        height: 80vh;
+        width: 100vw;
+        /* margin: 0.2rem 0; */
+        margin-top: -0.8rem;
+        border-radius: 0;
+
     }
 
     nav ul {
-        margin-right: -2rem;
+        width: 100vw;
+        /* margin-right: -2rem; */
         height: 3rem;
         margin-bottom: 1rem;
     }
 
     .bottom {
-        height: 10vh;
+        height: 12vh;
         margin-right: -2rem;
-        margin-bottom: -15rem;
+        margin-bottom: -1rem;
+        width: 100vw;
     }
 
     #myProgressBar {
         width: 74vw;
-        margin-top: -3.6rem;
+        margin-top: -2.6rem;
         height: 0.2rem;
     }
 
@@ -667,28 +608,210 @@ nav ul {
 
     }
 
-    .songList h1{
+    .songList h1 {
         font-size: 1.7rem;
-        margin:0 auto;
-        margin-bottom: -1rem;
+        margin: 0 auto;
+        margin-bottom: -3rem;
         margin-top: 2rem;
     }
-    .songList{
+
+    .songList {
         margin-top: -2rem;
     }
 
-    .songItem{
-        height: 2.6rem;
+    .songItem {
+        height: 1.7rem;
+
     }
 
     .menu {
-        right: -0.3rem;
+        /* right: -0.3rem; */
+        top: 0.8rem;
+        display: none;
+    }
+
+    /* .brand img{
+    margin-left: 2rem;
+    display: block;
+   } */
+
+    .dropdown {
+        display: block;
+    }
+
+    .icons i {
+        padding: 0 1rem;
+        font-size: 1.7rem;
+    }
+}
+
+
+@media (max-width:1024px) {
+    html {
+        font-size: 70%;
+    }
+
+    .menu {
+        right: 1rem;
         top: 0.8rem;
     }
 
-   
+    .container {
+        height: 83vh;
+    }
+
+    .dropdown {
+        margin-top: 1.1rem;
+    }
+
+    nav ul li {
+        padding: 0 2rem;
+    }
+
+
+
 }
 
+@media (max-width:770px) {
+    .container {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .songList {
+        margin: 0 auto;
+        margin-left: -2rem;
+    }
+
+    .songItem {
+        height: 4vh;
+        padding: -0.1rem 0;
+        width: 40vw;
+    }
+
+    .songItemContainer {
+        width: 80vw;
+    }
+
+
+
+    .songName {
+        letter-spacing: 0.1rem;
+        word-spacing: 0.3=2rem;
+    }
+
+    html {
+        font-size: 50%;
+    }
+
+    body {
+        background-image: none;
+    }
+
+    .songList h1 {
+        font-size: 1.7rem;
+        margin: 0 auto;
+        margin-bottom: -5rem;
+        margin-top: 1rem;
+    }
+
+    .bottom {
+        height: 12vh;
+        margin-right: -2rem;
+        margin-bottom: -10rem;
+        width: 100vw;
+        margin-top: -8rem;
+    }
+
+    .dropdown {
+        margin-top: 2.9rem;
+    }
+}
+
+@media (max-width:426px) {
+    html {
+        font-size: 40%;
+    }
+
+    .container {
+        height: 100vh;
+        width: 100vw;
+        margin: 0 0.2rem;
+        margin-left: -0.1rem;
+    }
+
+    #ho {
+        display: none;
+    }
+
+    #ho1 {
+        /* display: flex; */
+        /* display: none; */
+        width: 100vw;
+        margin-top: 17rem;
+        background-color: rgb(255, 156, 173);
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        height: 18vh;
+        margin-left: -11.1rem;
+        z-index: 1;
+    }
+
+    #ho1 li a {
+        display: flex;
+        font-size: 1.8rem;
+        color: #fff;
+        list-style: none;
+        text-decoration: none;
+        /* flex-direction: row; */
+        justify-content: center;
+        padding: 0.4rem 1.2rem
+    }
+
+    .songList h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .songInfo {
+
+        left: 16vw;
+        font-size: 1rem;
+        margin-bottom: -21px;
+    }
+
+    .songInfo img {
+        position: absolute;
+        right: -19rem;
+        height: 1.2rem;
+        width: 2rem;
+        margin-right: 0.7rem;
+    }
+
+    .bottom {
+
+        height: 13vh;
+
+    }
+
+    .songList {
+        margin: 0 auto;
+    }
+
+    .songItem {
+        width: 80vw;
+
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+}
 
 
 /* By Datta kale */

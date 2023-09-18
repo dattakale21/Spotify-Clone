@@ -123,6 +123,9 @@ document.getElementById('previous').addEventListener('click', () => {    // --> 
 })
 
 
+
+// ------------------------ menu --------------------------------
+
 let menuIcon = document.querySelector('.menu');
 
 menuIcon.addEventListener('click', () => {
@@ -141,48 +144,40 @@ menuIcon.addEventListener('click', () => {
 // By Datta kale 
 
 
+// document.addEventListener("DOMContentLoaded", function () {
+//     const menuIcon = document.querySelector(".menu i");
+//     const cross = document.querySelector(".cross i");
+//     const ho1 = document.querySelector("#ho1"); // Updated to match the CSS id
+
+//     menuIcon.addEventListener("click", function () {
+//         if (ho1.style.display === "block") {
+//             ho1.style.display = "none";
+//             menuIcon.innerHTML = '<i class="fas fa-bars"></i>'; // Change to menu icon
+//         } else {
+//             ho1.style.display = "block";
+//             menuIcon.innerHTML = '<i class="fas fa-times"></i>'; // Change to cross icon
+//         }
+//     });
+
+//     cross.addEventListener("click", function () {
+//         ho1.style.display = "none";
+//         menuIcon.innerHTML = '<i class="fas fa-bars"></i>'; // Change to menu icon
+//     });
+// });
+
 document.addEventListener("DOMContentLoaded", function () {
     const menuIcon = document.querySelector(".menu i");
     const cross = document.querySelector(".cross i");
-    const ho = document.querySelector("#ho");
+    const ho1 = document.querySelector("#ho1"); // Select the element to toggle
 
     menuIcon.addEventListener("click", function () {
-        if (ho.style.display === "block") {
-            ho.style.display = "none";
-            menuIcon.innerHTML = '<i class="fas fa-times"></i>';
-
-        } else {
-            ho.style.display = "block";
-            menuIcon.innerHTML = '<i class="fas fa-bars"></i>'; // Replace cross icon with menu icon
-        }
+        ho1.style.display = "block"; // Display the element when menu icon is clicked
     });
-
 
     cross.addEventListener("click", function () {
-        if (ho.style.display === "block") {
-            ho.style.display = "none";
-            menuIcon.innerHTML = '<i class="fas fa-times"></i>';
-
-        } else {
-            ho.style.display = "none";
-            menuIcon.innerHTML = '<i class="fas fa-bars"></i>'; // Replace cross icon with menu icon
-        }
+        ho1.style.display = "none"; // Hide the element when cross icon is clicked
     });
 });
-
-// document.addEventListener("DOMContentLoaded", function () {
-//     const menuIcon = document.querySelector("#m");
-//     const crossIcon = document.querySelector(".cross");
-//     const ho = document.querySelector("#ho");
-
-//     menuIcon.addEventListener("click", function () {
-//         ho.style.display = "block";
-//     });
-
-//     crossIcon.addEventListener("click", function () {
-//         ho.style.display = "none";
-//     });
-// });
 
 
 
