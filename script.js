@@ -21,7 +21,7 @@ let songs = [            // Arrays of object is used here.
     { songName: "Imagine Dragons - Bones", filePath: "songs/2.mp3", coverPath: "covers/7.jpg" },
     { songName: "Poylow, Misfit - Halo", filePath: "songs/2.mp3", coverPath: "covers/8.jpg" },
     { songName: "TonyZ - Road So Far", filePath: "songs/2.mp3", coverPath: "covers/9.jpg" },
-    { songName: "NWiz Khalifa - See You Again", filePath: "songs/4.mp3", coverPath: "covers/10.jpg" },
+    { songName: "See You Again", filePath: "songs/4.mp3", coverPath: "covers/10.jpg" },
 ]
 
 songItems.forEach((element, i) => {   // --> here for changing the cover img or DP of the song we used the for loop. here we can also directly give the cover img or song name by the 
