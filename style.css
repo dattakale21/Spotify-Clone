@@ -918,11 +918,12 @@ nav ul {
 @media (max-width:413px) and (max-height:914px) {
     html {
         font-size: 75%;
+        height: 90vh;
     }
 
     .container {
         margin: 1rem auto;
-        height: 100vh;
+        height: 88vh;
         margin-top: -1rem;
         border-top: 2px solid rgb(138, 138, 161);
     }
@@ -943,6 +944,8 @@ nav ul {
     }
 
     .bottom {
+        position: absolute;
+        bottom:5rem;
         height: 13vh;
         margin-right: -2rem;
         /* margin-top: -3rem; */
@@ -1002,23 +1005,25 @@ nav ul {
     }
 
     #ho1 {
-        margin-top: 14.7rem;
-        height: 15vh;
+        margin-top: 20.3rem;
+        height: 23vh;
         margin-left: -11.5rem;
     }
 
+   
     #ho1 li a {
         /* padding:-0.9rem 0; */
-        font-size: 1.5rem;
+        font-size: 2.2rem;
         letter-spacing: 0.21rem;
         font-weight: 300;
+        padding:0.7rem 0;
     }
 
     #last {
         margin-bottom: -45rem;
     }
 
-    .brand{
+    .brand {
         margin-left: -2.6rem;
     }
 
@@ -1026,42 +1031,77 @@ nav ul {
         width: 2.8rem;
     }
 
+    body{
+        height: 80vh;
+    }
+
 }
 
 @media (max-width:913px) and (max-height:413px) {
-html{
-    font-size: 60%;
+    html {
+        font-size: 60%;
+    }
+
+    .container {
+        height: 100vh;
+        /* overflow: hidden; */
+    }
+
+    .bottom {
+        /* margin-top: -3rem; */
+    }
+
+    .songList h1 {
+        margin-top: 0.4rem;
+    }
+
+    .songItemContainer {
+        margin-top: 4rem;
+    }
+
+    .icons {
+        margin-top: 1rem;
+    }
+
+    .dropdown .dropbtn {
+        margin-top: -4.4rem;
+        font-size: 0.9rem;
+    }
+
+    .dropdown-content {}
 }
 
-.container{
-    height: 100vh;
-}
 
-.bottom{
-    /* margin-top: -3rem; */
-}
+@media(max-height:413px) {
+    html {
+        font-size: 60%;
+    }
 
-.songList h1{
-    margin-top: -0.6rem;
-}
+    .container {
+        height: 100vh;
+    }
 
-.songItemContainer{
-    margin-top: 4rem;
-}
+    .bottom {
+        /* margin-top: -3rem; */
+    }
 
-.icons{
-    margin-top: 1rem;
-}
+    .songList h1 {
+        margin-top: 0.7rem;
+    }
 
-.dropdown .dropbtn{
-    margin-top: -4.4rem;
-    font-size: 0.9rem;
-}
+    .songItemContainer {
+        margin-top: 4rem;
+    }
 
-.dropdown-content {
-  
+    .icons {
+        margin-top: 1rem;
+    }
 
-}
+    .dropdown .dropbtn {
+       display: none;
+    }
+
+    .dropdown-content {}
 }
 
 
