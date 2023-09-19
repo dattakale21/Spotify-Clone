@@ -800,10 +800,20 @@ label {
 
     #ho1 {
         display: none;
+        height: 26vh;
+        margin-top: 14rem;
+
     }
 
+    #ho1 li a{
+        font-size: 1.3rem;
+    }
+
+    .container h1{
+font-size: 180%;
+    }
     .container {
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
 
     #foot h2 {
