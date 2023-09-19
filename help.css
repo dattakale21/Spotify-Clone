@@ -267,4 +267,75 @@ label {
     border: 1px solid #fff;
 }
 
+@media (max-width:1440px) {
+    .menu {
+        display: none;
+    }
+
+    #ho {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    html {
+        font-size: 100%;
+    }
+
+    .dropdown {
+        /* display: none;/ */
+        margin-top: -0.6rem;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 0.7rem;
+    }
+
+    .container h1 {
+        font-size: 80%;
+    }
+
+    #ho1 {
+        display: none;
+    }
+
+    nav ul {
+        background-color: rgb(255, 156, 173);
+        height: 6vh;
+        width: 100vw;
+        align-items: center;
+        margin-right: -1rem;
+    }
+
+    #ho a {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #foot {
+        position: absolute;
+        bottom: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        word-spacing: 0.2rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .container {
+        height: 72vh;
+    }
+
+    .container form input {
+        font-size: 90%;
+    }
+
+    .container h1 {
+        font-size: 270%;
+    }
+
+    .container #da {
+        font-size: 95%;
+    }
+}
+
+
 /* By Datta kale */
