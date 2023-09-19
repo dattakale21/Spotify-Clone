@@ -375,9 +375,6 @@ nav ul li {
     }
 
 
-
-
-
     #foot {
         position: absolute;
         bottom: 0;
@@ -393,6 +390,14 @@ nav ul li {
     .container form input {
         font-size: 70%;
         padding: 0.7rem 8rem;
+    }
+
+    .form-group input:hover {
+        color: red;
+        background-color: rgb(235, 229, 229);
+        padding: 3% 31%;
+        cursor: pointer;
+        box-shadow: 1px 1px rgb(222, 220, 220);
     }
 
     .container h1 {
@@ -544,12 +549,12 @@ nav ul li {
     .menu1 {
         position: absolute;
         right: 1rem;
-        top: 0.6rem;
+        top: 0.3rem;
         display: block;
     }
 
     .menu1 i {
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         /* Adjust the size as needed */
         color: white;
         /* margin-right: -1rem; */
@@ -644,19 +649,19 @@ nav ul li {
         /* display: flex; */
         display: none;
         width: 100vw;
-        margin-top: 13rem;
+        margin-top: 21rem;
         background-color: rgb(255, 156, 173);
         flex-direction: column;
         justify-content: center;
         align-items: left;
-        height: 23vh;
+        height: 20vh;
         margin-left: -7.5rem;
         z-index: 1;
     }
 
     #ho1 li a {
         display: flex;
-        font-size: 1.3rem;
+        font-size: 2.3rem;
         color: #fff;
         list-style: none;
         text-decoration: none;
@@ -942,7 +947,7 @@ nav ul li {
 
     #ho1 {
         display: none;
-        margin-top: 12rem;
+        margin-top: 13rem;
         height: 23vh;
         margin-left: -6.7rem;
     }
@@ -1126,101 +1131,51 @@ nav ul li {
 }
 
 @media(max-height:413px) {
-    #ho {
-        display: flex;
-        flex-direction: row;
+    html {
+        font-size: 50%;
     }
 
-    .dropdown {
-        display: none;
+    .container {
+        border: none;
+        width: 58%;
+    }
+
+
+    .container h1 {
+        font-size: 210%;
+        line-height: 1.1rem;
     }
 
     #ho1 {
         display: none;
-        margin-top: 15rem;
-        height: 23vh;
-        margin-left: -7.9rem;
-    }
-
-    #ho1 li a {
-        display: flex;
-        font-size: 1.5rem;
-        color: #fff;
-        list-style: none;
-        text-decoration: none;
-        /* flex-direction: row; */
-        justify-content: center;
-        padding: 0.4rem 1.2rem
-    }
-
-    html {
-        font-size: 70%;
-    }
-
-
-    .menu {
-        display: block;
-    }
-
-    .menu i {
-        font-size: 2rem;
+        margin-top: 13rem;
+        margin-left: -8.3rem;
     }
 
     .dropdown {
         display: none;
-        margin-top: -0.9rem;
     }
-
-    .dropdown .dropbtn {
-        font-size: 0.6rem;
-    }
-
-    nav ul {
-        background-color: rgb(255, 156, 173);
-        height: 6vh;
-        width: 100vw;
-        align-items: center;
-        margin-right: -1rem;
-    }
-
 
     #foot {
-        position: absolute;
-        bottom: 0;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        word-spacing: 0.2rem;
-        letter-spacing: 0.1rem;
-        height: 2rem;
-        /* background-color: red; */
+        height: 2.3rem;
     }
 
     #foot h2 {
-        font-size: 90%;
+        font-size: 40%;
     }
 
-    .container {
-        height: 60vh;
-        width: 58%;
-        border: none;
 
+    .container label {
+        font-size: 160%;
     }
 
-    .container form input {
-        font-size: 70%;
-        padding: 0.4rem 6rem;
-        margin: 0.2rem 0;
+    #op {
+        font-size: 150%;
+        width: 60vw;
+        margin-bottom: 1rem;
+        height: 3rem;
     }
 
-    .container h1 {
-        font-size: 260%;
-        /* margin-bottom: 3rem; */
-        /* margin-top: -3rem; */
-    }
-
-    .container #da {
-        font-size: 80%;
-        margin-top: 3rem;
-    }
 }
 
 @media (max-width:320px) and (max-height:914px) {
@@ -1232,6 +1187,9 @@ nav ul li {
         font-size: 70%;
         padding: 0.7rem 4rem;
         margin: 0.5rem 0;
+    }
+    #ho{
+        display: none;
     }
 
 

@@ -1064,7 +1064,7 @@ h1 {
 @media(max-height:413px) {
 
     html {
-        font-size: 70%;
+        font-size: 60%;
     }
 
     .container {
@@ -1079,7 +1079,7 @@ h1 {
     }
 
     #ho1 {
-        margin-top: 13rem;
+        margin-top: 12rem;
         margin-left: -7.9rem;
     }
 
@@ -1094,6 +1094,14 @@ h1 {
     #foot h2 {
         font-size: 90%;
     }
+
+    .menu {
+        top: 0.5rem;
+    }
+
+    .container {
+        font-size: 230%;
+    }
 }
 
 
@@ -1104,7 +1112,7 @@ h1 {
     }
 
     .container h1 {
-        font-size: 60%;
+        font-size: 40%;
         line-height: 1.1rem;
     }
 
