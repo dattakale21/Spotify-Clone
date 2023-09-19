@@ -34,13 +34,21 @@ nav ul li {
     z-index: 10;
 }
 
-#ho a {
-    padding-left: 73px;
-    font-size: 21px;
-    z-index: 10;
+
+#ho1 {
+    display: none;
+}
+
+#ho li a {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3rem;
     color: #fff;
     list-style: none;
     text-decoration: none;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 1.2rem
 }
 
 #ho:hover {
@@ -229,6 +237,586 @@ nav ul li {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+
+@media (max-width:1440px) {
+    .menu {
+        display: none;
+    }
+
+    .songItem {
+        width: 32vw;
+        height: 12vh;
+    }
+
+    .songList h1 {
+        font-size: 2rem;
+    }
+
+    #ho {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    html {
+        font-size: 100%;
+    }
+
+
+    .menu,
+    .cross {
+        display: none;
+    }
+
+    .dropdown {
+        /* display: none;/ */
+        margin-top: -0.6rem;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 0.7rem;
+    }
+
+    .container h1 {
+        font-size: 80%;
+    }
+
+    #ho1 {
+        display: none;
+    }
+
+    nav ul {
+        background-color: rgb(255, 156, 173);
+        height: 6vh;
+        width: 100vw;
+        align-items: center;
+        margin-right: -1rem;
+    }
+
+    #ho a {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .menu {
+        right: 1rem;
+        top: 0.7rem;
+    }
+
+    .menu i {
+        font-size: 1.2rem;
+        /* Adjust the size as needed */
+        color: white;
+        /* Icon color */
+    }
+
+    .brand {
+        /* font-size: 100%; */
+        /* margin-left: 2rem; */
+    }
+
+    .brand img {
+        width: 1.6rem;
+        height: 7.6rem;
+    }
+
+    body img {
+        opacity: 0.3;
+    }
+
+    .bottom {
+
+        height: 16vh;
+
+    }
+
+    #foot {
+        position: absolute;
+        bottom: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        word-spacing: 0.2rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .icons {
+        margin-top: 14px;
+        margin-bottom: -31px;
+    }
+
+    .icons i {
+        cursor: pointer;
+        font-size: 2rem;
+    }
+
+    #myProgressBar {
+        width: 70vw;
+        cursor: pointer;
+        margin-top: -33px;
+        height: 0.3rem;
+    }
+
+    #masterplay {
+        size: 2rem;
+    }
+
+
+    .songInfo {
+        left: 16vw;
+        font-size: 1rem;
+        margin-bottom: -21px;
+    }
+
+    .songInfo img {
+        height: 1.4rem;
+        margin-right: 0.7rem;
+    }
+
+    .songInfo img {
+        opacity: 0;
+        transition: opacity 0.4s ease-in;
+    }
+
+    .songItem {
+        height: 2rem;
+    }
+
+    .songItem img {
+        width: 1.6rem;
+        margin: 0 5px;
+        border-radius: 34px;
+    }
+
+    .container {
+        height: 72vh;
+    }
+
+    .container form input {
+        font-size: 90%;
+    }
+
+    .container h1 {
+        font-size: 270%;
+    }
+
+    .container #da {
+        font-size: 95%;
+    }
+}
+
+@media (max-width:1240px) {
+    .menu {
+        display: none;
+    }
+
+
+
+    #ho {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    html {
+        font-size: 80%;
+    }
+
+
+    .menu,
+    .cross {
+        display: none;
+    }
+
+    .dropdown {
+
+        margin-top: -0.9rem;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 0.6rem;
+    }
+
+    .container h1 {
+        font-size: 80%;
+    }
+
+    #ho1 {
+        display: none;
+    }
+
+    nav ul {
+        background-color: rgb(255, 156, 173);
+        height: 6vh;
+        width: 100vw;
+        align-items: center;
+        margin-right: -1rem;
+    }
+
+    #ho a {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+
+
+    #foot {
+        position: absolute;
+        bottom: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        word-spacing: 0.2rem;
+        letter-spacing: 0.1rem;
+    }
+
+
+
+
+
+
+    .container {
+        height: 72vh;
+    }
+
+    .container form input {
+        font-size: 70%;
+        padding: 0.7rem 8rem;
+    }
+
+    .container h1 {
+        font-size: 250%;
+    }
+
+    .container #da {
+        font-size: 85%;
+    }
+}
+
+
+@media (max-width:770px) {
+    .menu {
+        display: none;
+    }
+
+
+
+    /* #ho {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+    } */
+
+    html {
+        font-size: 80%;
+    }
+
+
+    .menu,
+    .cross {
+        display: none;
+    }
+
+    .dropdown {
+
+        margin-top: -0.9rem;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 0.5rem;
+    }
+
+    .container h1 {
+        font-size: 80%;
+    }
+
+    #ho1 {
+        display: none;
+    }
+
+    nav ul {
+        background-color: rgb(255, 156, 173);
+        height: 6vh;
+        width: 100vw;
+        align-items: center;
+        margin-right: -1rem;
+    }
+
+    #ho a {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+
+
+    #foot {
+        position: absolute;
+        bottom: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        word-spacing: 0.2rem;
+        letter-spacing: 0.1rem;
+    }
+
+
+    #foot h2 {
+        margin: 0 auto;
+        font-size: 1rem;
+    }
+
+
+
+    .container {
+        height: 72vh;
+        width: 70vw;
+    }
+
+    .container form input {
+        font-size: 70%;
+        padding: 0.5rem 8rem;
+    }
+
+    .container h1 {
+        font-size: 240%;
+    }
+
+    .container #da {
+        font-size: 85%;
+    }
+}
+
+@media (max-width:426px) {
+
+    html {
+        font-size: 30%;
+    }
+
+
+    .dropdown {
+        display: none;
+        margin-top: -0.9rem;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 0.7rem;
+    }
+
+    .container h1 {
+        font-size: 260%;
+    }
+
+    .container {
+        border: none;
+        width: 69%;
+    }
+
+    #ho {
+        display: none;
+    }
+
+    #ho1 {
+        /* display: flex; */
+        display: none;
+        width: 100vw;
+        margin-top: 13rem;
+        background-color: rgb(255, 156, 173);
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        height: 23vh;
+        margin-left: -7.5rem;
+        z-index: 1;
+    }
+
+    #ho1 li a {
+        display: flex;
+        font-size: 1.3rem;
+        color: #fff;
+        list-style: none;
+        text-decoration: none;
+        /* flex-direction: row; */
+        justify-content: center;
+        padding: 0.4rem 1.2rem
+    }
+
+    nav ul {
+        background-color: rgb(255, 156, 173);
+        height: 6vh;
+        width: 100vw;
+        align-items: center;
+        /* margin-left: 1rem; */
+    }
+
+
+    .menu {
+        position: absolute;
+        right: 1rem;
+        top: 0.9rem;
+        display: block;
+    }
+
+    .menu i {
+        font-size: 3.4rem;
+        /* Adjust the size as needed */
+        color: white;
+        /* margin-right: -1rem; */
+        /* Icon color */
+    }
+
+    #foot {
+        position: absolute;
+        bottom: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        word-spacing: 0.2rem;
+        letter-spacing: 0.1rem;
+        margin-right: -6rem;
+        width: 100vw;
+    }
+
+    #foot h2 {
+        font-size: 120%;
+        margin: 0 auto;
+
+    }
+
+    html {
+        font-size: 70%;
+    }
+
+
+    .dropdown {
+        /* display: none;/ */
+        margin-top: -0.9rem;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 0.7rem;
+    }
+
+    /* .container h1 {
+        font-size: 60%;
+        margin:0 -1rem;
+    } */
+
+
+
+    #foot {
+        position: absolute;
+        bottom: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        word-spacing: 0.2rem;
+        letter-spacing: 0.1rem;
+    }
+
+    #foot h2 {
+        font-size: 90%;
+
+    }
+}
+
+@media (max-width:320px) {
+
+
+    #ho {
+        display: none;
+    }
+
+    #ho1 {
+        display: none;
+        width: 100vw;
+        margin-top: 16rem;
+        background-color: rgb(255, 156, 173);
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        height: 25vh;
+        margin-left: -7.9rem;
+        z-index: 1;
+    }
+
+    #ho1 li a {
+        display: flex;
+        font-size: 1.9rem;
+        color: #fff;
+        list-style: none;
+        text-decoration: none;
+        /* flex-direction: row; */
+        justify-content: center;
+        padding: 0.4rem 1.2rem
+    }
+
+    html {
+        font-size: 60%;
+    }
+
+
+    .menu {
+        display: block;
+    }
+
+    .menu i {
+        font-size: 2rem;
+        margin-top: 0.6rem;
+    }
+
+
+
+    .dropdown {
+        display: none;
+        margin-top: -0.9rem;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 0.6rem;
+    }
+
+    .container h1 {
+        font-size: 70%;
+    }
+
+    nav ul {
+        background-color: rgb(255, 156, 173);
+        height: 6vh;
+        width: 100vw;
+        align-items: center;
+        margin-right: -1rem;
+    }
+
+
+    #foot {
+        position: absolute;
+        bottom: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        word-spacing: 0.2rem;
+        letter-spacing: 0.1rem;
+    }
+
+
+
+
+
+
+    .container {
+        height: 72vh;
+        /* width: 80vw; */
+    }
+
+    .container form input {
+        font-size: 70%;
+        padding: 0.7rem 8rem;
+    }
+
+    .container h1 {
+        font-size: 240%;
+    }
+
+    .container #da {
+        font-size: 85%;
+    }
+
+
 }
 
 /* By Datta kale */

@@ -5,18 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <link rel="stylesheet" href="form.css">
+
 </head>
 
 <body>
     <nav>
-        <ul class="nav">
-            <li class="brand"><img src="logo.png" alt="Spotify"> Spotify</li>
-            <li id="ho"><a href="index.html">Home</a></li>
-            <li id="ho"><a href="about.html">About us</a></li>
-            <li id="ho"><a href="form.html">Contact</a></li>
-            <li id="ho"><a href="help.html">feedback</a></li>
+        <ul>
+            <li class="brand">MeloMix.</li>
+            <div id="ho">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="form.html">Contact</a></li>
+                <li><a href="help.html">feedback</a></li>
+            </div>
+
+            <div id="ho1">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="form.html">Contact</a></li>
+                <li><a href="help.html">feedback</a></li>
+            </div>
         </ul>
+
+
+
+        <div class="menu">
+            <i class="fas fa-bars" id="m"></i> <!-- Replace with the appropriate class for your menu icon -->
+        </div>
+        <div class="cross hidden">
+            <i class="fas fa-times" id="c"></i> <!-- Replace with your cross icon -->
+        </div>
 
         <div class="dropdown">
             <button class="dropbtn">Developers
@@ -63,6 +83,7 @@
     <footer id="foot">
         <h2>Copyright © 2023. All rights reserved | Designed by Datta</h2>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

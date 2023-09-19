@@ -111,6 +111,8 @@ nav ul {
     margin-bottom: -31px;
 }
 
+
+
 .icons i {
     cursor: pointer;
 }
@@ -350,7 +352,7 @@ nav ul {
 
 @media (max-width:1440px) {
     .menu {
-        display: block;
+        display: none;
 
     }
 
@@ -367,16 +369,15 @@ nav ul {
         font-size: 110%;
     }
 
-    nav ul {
-        height: 5vh;
-    }
 
     .dropdown {
-        display: none;
+        display: block;
     }
 
     nav ul {
         background-color: rgb(255, 156, 173);
+        height: 5vh;
+
     }
 
     .menu {
@@ -462,7 +463,9 @@ nav ul {
     .container {
         height: 80vh;
     }
-
+#ho1{
+    display: none;
+}
 }
 
 @media (max-width:1024px) {
@@ -480,7 +483,7 @@ nav ul {
     }
 
     .dropdown {
-        margin-top: 1.1rem;
+        margin-top: 0.11rem;
     }
 
     nav ul li {
@@ -668,7 +671,7 @@ nav ul {
         justify-content: center;
         align-items: left;
         height: 18vh;
-        margin-left: -11.1rem;
+        margin-left: -13.9rem;
         z-index: 1;
     }
 
@@ -981,7 +984,7 @@ nav ul {
     }
 
     .songItemContainer {
-        margin-top: 8rem;
+        margin-top: 5rem;
     }
 
     .songList {

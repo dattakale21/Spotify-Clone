@@ -45,7 +45,6 @@ masterPlay.addEventListener('click', () => {   // here addEventListener is the m
         masterPlay.classList.remove('fa-pause-circle');   // --> and replace the pause button by the play button
         masterPlay.classList.add('fa-play-circle');    // --> adding the play button here.
         songitemplay.classList.add('fa-pause-circle');   // --> inside the list of the songs replacing the button.
-
         gif.style.opacity = 0;       // --> here when the song is paused then the gif of playing song is then not visible to the user. means its opicity is now 0(false)
     }
 })
@@ -171,6 +170,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let ho1 = document.querySelector("#ho1"); // Select the element to toggle
 
     menuIcon.addEventListener("click", function () {
+        console.log("Menu icon clicked");
         ho1.style.display = "block"; // Display the element when menu icon is clicked
     });
 
