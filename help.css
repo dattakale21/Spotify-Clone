@@ -42,7 +42,9 @@ nav ul li {
     list-style: none;
     text-decoration: none;
 }
-
+#ho1{
+    display: none;
+}
 #ho:hover {
     font-size: 23px;
     font-weight: bolder;
@@ -278,17 +280,23 @@ label {
         margin: 0 auto;
     }
 
-    html {
-        font-size: 100%;
+    .container div {
+        font-size: 40%;
     }
 
-    .dropdown {
-        /* display: none;/ */
-        margin-top: -0.6rem;
+    .cross {
+        display: none;
     }
+
+    html,
+    #ho {
+        font-size: 80%;
+    }
+
 
     .dropdown .dropbtn {
         font-size: 0.7rem;
+        margin-top: 0.4rem;
     }
 
     .container h1 {
@@ -333,9 +341,188 @@ label {
     }
 
     .container #da {
-        font-size: 95%;
+        font-size: 150%;
     }
 }
 
+
+@media (max-width:1024px) {
+    .menu {
+        display: none;
+    }
+
+    #ho {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    .container div {
+        font-size: 40%;
+    }
+
+    .cross {
+        display: none;
+    }
+
+    html,
+    #ho {
+        font-size: 80%;
+    }
+
+
+    .dropdown .dropbtn {
+        font-size: 0.5rem;
+        margin-top: 0.4rem;
+    }
+
+    .container h1 {
+        font-size: 70%;
+    }
+
+    #ho1 {
+        display: none;
+    }
+
+    nav ul {
+        background-color: rgb(255, 156, 173);
+        height: 6vh;
+        width: 100vw;
+        align-items: center;
+        margin-right: -1rem;
+    }
+
+    #ho a {
+        display: flex;
+        flex-direction: row;
+        font-size: 150%;
+        padding: 0 1.4rem;
+    }
+
+    #foot {
+        position: absolute;
+        bottom: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        word-spacing: 0.2rem;
+        letter-spacing: 0.1rem;
+    }
+
+
+    .container {
+        height: 76vh;
+        width: 70vw;
+    }
+
+    .container label {
+        font-size: 180%;
+    }
+
+    #op {
+        font-size: 150%;
+        padding: -0.3rem 0;
+    }
+
+    .container h1 {
+        font-size: 270%;
+    }
+
+    .container div {
+        margin-top: -3rem;
+    }
+
+    .container #da {
+        font-size: 130%;
+        padding: 0.6rem 2.6rem;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width:425px) {
+    .menu {
+        display: none;
+    }
+
+    .dropdown {
+        display: none;
+        margin-top: -0.9rem;
+    }
+    #ho {
+        display: none;
+    }
+
+    
+
+    .container div {
+        font-size: 40%;
+    }
+
+    .cross {
+        display: none;
+    }
+
+    html {
+        font-size: 30%;
+    }
+
+    .container h1 {
+        font-size: 70%;
+    }
+
+    #ho1 {
+        display: none;
+    }
+
+    nav ul {
+        background-color: rgb(255, 156, 173);
+        height: 6vh;
+        width: 100vw;
+        align-items: center;
+        margin-right: -1rem;
+    }
+
+    #ho a {
+        display: flex;
+        flex-direction: row;
+        font-size: 150%;
+        padding: 0 1.4rem;
+    }
+
+    #foot {
+        position: absolute;
+        bottom: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        word-spacing: 0.2rem;
+        letter-spacing: 0.1rem;
+    }
+
+
+    .container {
+        height: 76vh;
+        width: 70vw;
+    }
+
+    .container label {
+        font-size: 180%;
+    }
+
+    #op {
+        font-size: 150%;
+        padding: -0.3rem 0;
+    }
+
+    .container h1 {
+        font-size: 270%;
+    }
+
+    .container div {
+        margin-top: -3rem;
+    }
+
+    .container #da {
+        font-size: 130%;
+        padding: 0.6rem 2.6rem;
+        margin-top: 2rem;
+    }
+}
 
 /* By Datta kale */

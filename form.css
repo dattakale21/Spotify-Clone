@@ -541,7 +541,6 @@ nav ul li {
         /* margin-left: 1rem; */
     }
 
-
     .menu1 {
         position: absolute;
         right: 1rem;
@@ -943,14 +942,14 @@ nav ul li {
 
     #ho1 {
         display: none;
-        margin-top: 15rem;
+        margin-top: 12rem;
         height: 23vh;
         margin-left: -6.7rem;
     }
 
     #ho1 li a {
         display: flex;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         color: #fff;
         list-style: none;
         text-decoration: none;
@@ -1012,12 +1011,12 @@ nav ul li {
 
     .container form input {
         font-size: 70%;
-        padding: 0.7rem 6rem;
-        margin: 0.7rem 0;
+        padding: 0.7rem 5rem;
+        margin: 0.5rem 0;
     }
 
     .container h1 {
-        font-size: 260%;
+        font-size: 210%;
         margin-bottom: 3rem;
     }
 
