@@ -15,9 +15,9 @@ let songs = [            // Arrays of object is used here.
     { songName: "Walker - Faded", filePath: "songs/1.mp3", coverPath: "covers/1.jpg" },  // --> this are objects which contains the song name, song path in the song folder and song img or song DP.
     { songName: "Alan Walker - Spectre", filePath: "songs/2.mp3", coverPath: "covers/2.jpg" },
     { songName: "Cartoon - On & On ", filePath: "songs/3.mp3", coverPath: "covers/3.jpg" },
-    { songName: "DJ Snake - Let Me Love You", filePath: "songs/4.mp3", coverPath: "covers/4.jpg" },
+    { songName: "Let Me Love U", filePath: "songs/4.mp3", coverPath: "covers/4.jpg" },
     { songName: "Electro-Light - Symbolism", filePath: "songs/5.mp3", coverPath: "covers/5.jpg" },
-    { songName: "Elektronomia - Sky High pt.", filePath: "songs/2.mp3", coverPath: "covers/6.jpg" },
+    { songName: "Elektronomia - Sky High.", filePath: "songs/2.mp3", coverPath: "covers/6.jpg" },
     { songName: "Imagine Dragons - Bones", filePath: "songs/2.mp3", coverPath: "covers/7.jpg" },
     { songName: "Poylow, Misfit - Halo", filePath: "songs/2.mp3", coverPath: "covers/8.jpg" },
     { songName: "TonyZ - Road So Far", filePath: "songs/2.mp3", coverPath: "covers/9.jpg" },

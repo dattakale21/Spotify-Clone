@@ -18,26 +18,6 @@ menuIcon.addEventListener('click', () => {
 // By Datta kale 
 
 
-// document.addEventListener("DOMContentLoaded", function () {
-//     const menuIcon = document.querySelector(".menu i");
-//     const cross = document.querySelector(".cross i");
-//     const ho1 = document.querySelector("#ho1"); // Updated to match the CSS id
-
-//     menuIcon.addEventListener("click", function () {
-//         if (ho1.style.display === "block") {
-//             ho1.style.display = "none";
-//             menuIcon.innerHTML = '<i class="fas fa-bars"></i>'; // Change to menu icon
-//         } else {
-//             ho1.style.display = "block";
-//             menuIcon.innerHTML = '<i class="fas fa-times"></i>'; // Change to cross icon
-//         }
-//     });
-
-//     cross.addEventListener("click", function () {
-//         ho1.style.display = "none";
-//         menuIcon.innerHTML = '<i class="fas fa-bars"></i>'; // Change to menu icon
-//     });
-// });
 
 document.addEventListener("DOMContentLoaded", function () {
     const menuIcon = document.querySelector(".menu i");
@@ -54,5 +34,14 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+// --------------------------- Feedback Databasee --------------------------
 
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyr_GyFqVo1pO6yYfJk-6sK6lqd-f0JGFI-wPdsxDWqaRuUOskJBF_T1CBv6BjKu6snxg/exec'
+const form = document.forms['submit-to-google-sheet']
 
+form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+});

@@ -161,7 +161,7 @@ h1 {
     cursor: pointer;
 }
 
-#op {
+#star, #suggestion, #reason {
     width: 415px;
     height: 32px;
     font-size: 23px;
@@ -345,6 +345,10 @@ label {
     .container #da {
         font-size: 150%;
     }
+
+    #suggestion textarea{
+        margin-top: 50rem;
+    }
 }
 
 
@@ -419,7 +423,7 @@ label {
         font-size: 180%;
     }
 
-    #op {
+    #star, #suggestion, #reason {
         font-size: 150%;
         padding: -0.3rem 0;
     }
@@ -493,7 +497,7 @@ label {
     }
 
     #ho1 {
-        display: block;
+        display: none;
         width: 100vw;
         margin-top: 13rem;
         background-color: rgb(255, 156, 173);
@@ -546,7 +550,7 @@ label {
         font-size: 160%;
     }
 
-    #op {
+    #star, #suggestion, #reason {
         font-size: 150%;
         width: 60vw;
         margin-bottom: 3rem;
@@ -646,7 +650,7 @@ label {
         font-size: 160%;
     }
 
-    #op {
+    #star, #suggestion, #reason {
         font-size: 150%;
         width: 60vw;
         margin-bottom: 3rem;
@@ -774,7 +778,7 @@ label {
         font-size: 160%;
     }
 
-    #op {
+    #star, #suggestion, #reason {
         font-size: 150%;
         width: 60vw;
         margin-bottom: 1rem;
@@ -876,7 +880,7 @@ label {
         font-size: 160%;
     }
 
-    #op {
+    #star, #suggestion, #reason {
         font-size: 150%;
         width: 60vw;
         margin-bottom: 1rem;

@@ -53,45 +53,43 @@
 
     <div class="container">
         <!-- <h1>Contact Us!</h1> -->
-        <form action="">
+        <form
+            action="https://script.google.com/macros/s/AKfycbyr_GyFqVo1pO6yYfJk-6sK6lqd-f0JGFI-wPdsxDWqaRuUOskJBF_T1CBv6BjKu6snxg/exec"
+            name="submit-to-google-sheet" method="post">
             <div class="head">
                 <h1>Send us your Feedback!</h1>
             </div>
 
             <div class="options">
 
-                <form action="" id="form2">
-                    <label for="cars">What was the reason for your feedback?</label>
-                    <select id="op" name="cars">
-                        <option value="">Better Experience</option>
-                        <option value="">Opening Problem</option>
-                        <option value="">Lag Problem</option>
-                    </select><br>
 
-                    <label for="cars">Please give us star?</label>
-                    <select id="op" name="cars">
-                        <option value="">⭐</option>
-                        <option value="">⭐⭐</option>
-                        <option value="">⭐⭐⭐</option>
-                        <option value="">⭐⭐⭐⭐</option>
-                        <option value="">⭐⭐⭐⭐⭐</option>
-                    </select><br>
+                <label for="Reason">What was the reason for your feedback?</label>
+                <select id="reason" name="Reason">
+                    <option value="Music Quality">Music Quality</option>
+                    <option value="User Experience">User Experience</option>
+                    <option value="Song Selection">Song Selection</option>
+                    <option value="Technical Issues">Technical Issues</option>
+                    <option value="Suggestions">Suggestions</option>
+                </select><br>
 
-                    <label for="cars">Do you have any suggestion to make our website better?</label>
-                    <select id="op" name="cars">
-                        <option value="">Take Feedback</option>
-                        <option value="">Make it colorfull</option>
-                        <option value="">Solve the Lag Problem</option>
-                    </select>
-                    <button id="da">Submit</button>
+                <label for="Star">Please give us star?</label>
+                <select id="star" name="Star">
+                    <option value="⭐">⭐</option>
+                    <option value="⭐⭐">⭐⭐</option>
+                    <option value="⭐⭐⭐">⭐⭐⭐</option>
+                    <option value="⭐⭐⭐⭐">⭐⭐⭐⭐</option>
+                    <option value="⭐⭐⭐⭐⭐">⭐⭐⭐⭐⭐</option>
+                </select><br>
 
-                </form>
+                <label for="Suggestion">Do you have any suggestion to make our website better?</label>
+                <textarea id="suggestion" name="Suggestion" rows="4" cols="50"></textarea><br>
+                <button id="da" type="submit">Submit</button>
             </div>
-
-            <footer id="foot">
-                <h2>Copyright © 2023. All rights reserved | Designed by Datta</h2>
-            </footer>
         </form>
+
+        <footer id="foot">
+            <h2>Copyright © 2023. All rights reserved | Designed by Datta</h2>
+        </footer>
     </div>
     <script src="help.js"></script>
 </body>
