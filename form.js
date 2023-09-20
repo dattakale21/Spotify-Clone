@@ -35,4 +35,4 @@ ScrollReveal({
 ScrollReveal().reveal('.container h1,#ho li a', { origin: 'top' });
 ScrollReveal().reveal('.container,#foot h2', { origin: 'bottom' });
 ScrollReveal().reveal('.brand', { origin: 'left' });
-ScrollReveal().reveal('.dropbtn', { origin: 'right' });
+ScrollReveal().reveal('', { origin: 'right' });

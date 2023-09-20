@@ -27,6 +27,8 @@ nav ul {
     height: 65px;
     background-color: black;
     color: white;
+    border-bottom: 1px solid rgb(66, 85, 112);
+
 }
 
 nav ul li {
@@ -45,6 +47,8 @@ nav ul li {
 
 #ho1 {
     display: none;
+    box-shadow: 0px 4px 10px rgba(251, 250, 250, 0.2);
+
 }
 
 #ho:hover {
@@ -313,7 +317,7 @@ label {
     }
 
     nav ul {
-        background-color: rgb(255, 156, 173);
+       background-color: rgb(12,18,41);
         height: 6vh;
         width: 100vw;
         align-items: center;
@@ -395,7 +399,7 @@ label {
     }
 
     nav ul {
-        background-color: rgb(255, 156, 173);
+       background-color: rgb(12,18,41);
         height: 6vh;
         width: 100vw;
         align-items: center;
@@ -439,7 +443,7 @@ label {
         margin-top: -14rem;
     }
 
-    
+
 
     .container #da {
         font-size: 130%;
@@ -447,7 +451,7 @@ label {
         margin-top: 2rem;
     }
 
-  
+
 }
 
 @media (max-width:426px) {
@@ -507,7 +511,7 @@ label {
         display: none;
         width: 100vw;
         margin-top: 13rem;
-        background-color: rgb(255, 156, 173);
+       background-color: rgb(12,18,41);
         flex-direction: column;
         justify-content: center;
         align-items: left;
@@ -524,7 +528,7 @@ label {
 
 
     nav ul {
-        background-color: rgb(255, 156, 173);
+       background-color: rgb(12,18,41);
         height: 6vh;
         width: 100vw;
         align-items: center;
@@ -627,7 +631,7 @@ label {
     }
 
     nav ul {
-        background-color: rgb(255, 156, 173);
+       background-color: rgb(12,18,41);
         height: 6vh;
         width: 100vw;
         align-items: center;
@@ -746,7 +750,7 @@ label {
         display: none;
         width: 100vw;
         margin-top: 17rem;
-        background-color: rgb(255, 156, 173);
+       background-color: rgb(12,18,41);
         flex-direction: column;
         justify-content: center;
         align-items: left;
@@ -756,7 +760,7 @@ label {
     }
 
     nav ul {
-        background-color: rgb(255, 156, 173);
+       background-color: rgb(12,18,41);
         height: 4vh;
         width: 100vw;
         align-items: center;

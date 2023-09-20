@@ -190,9 +190,9 @@ ScrollReveal({
     delay: 110
 });
 
-ScrollReveal().reveal('.songList h1,#ho li a', { origin: 'top' });
+ScrollReveal().reveal('.songList h1,#ho li a,#masterPlay,#previous,#next', { origin: 'top' });
 ScrollReveal().reveal('.songItem', { origin: 'bottom' });
-ScrollReveal().reveal('.brand,#previous,.songInfo', { origin: 'left' });
-ScrollReveal().reveal('.dropbtn,#next', { origin: 'right' });
+ScrollReveal().reveal('.brand', { origin: 'left' });
+ScrollReveal().reveal('', { origin: 'right' });
 
 

@@ -28,7 +28,10 @@ nav ul {
     background-color: black;
     color: white;
     width: 100vw;
+    border-bottom: 1px solid rgb(66, 85, 112);
+
 }
+
 
 nav ul li {
     padding: 0 12px;
@@ -45,6 +48,8 @@ nav ul li {
 
 #ho1 {
     display: none;
+    box-shadow: 100px 5px 10px rgba(231, 227, 227, 0.2);
+
 }
 
 #ho li a {
@@ -90,6 +95,7 @@ nav ul li {
     align-items: center;
     color: #fff;
     font-size: 23px;
+   
 }
 
 .container div {
@@ -260,7 +266,7 @@ h1 {
     }
 
     nav ul {
-        background-color: rgb(255, 156, 173);
+        background-color: rgb(12, 18, 41);
         height: 6vh;
         width: 100vw;
         align-items: center;
@@ -363,6 +369,7 @@ h1 {
 
     .container {
         height: 80vh;
+        border-top: 2px solid rgb(236, 226, 226);
     }
 
 }
@@ -406,7 +413,8 @@ h1 {
     }
 
     nav ul {
-        background-color: rgb(255, 156, 173);
+        background-color: rgb(12, 18, 41);
+
         height: 6vh;
         width: 100vw;
         align-items: center;
@@ -543,7 +551,8 @@ h1 {
 
 
     nav ul {
-        background-color: rgb(255, 156, 173);
+        background-color: rgb(12, 18, 41);
+
         height: 6vh;
         width: 100vw;
         align-items: center;
@@ -606,7 +615,8 @@ h1 {
         display: none;
         width: 100vw;
         margin-top: 13rem;
-        background-color: rgb(255, 156, 173);
+        background-color: rgb(12, 18, 41);
+
         flex-direction: column;
         justify-content: center;
         align-items: left;
@@ -627,7 +637,8 @@ h1 {
     }
 
     nav ul {
-        background-color: rgb(255, 156, 173);
+        background-color: rgb(12, 18, 41);
+
         height: 6vh;
         width: 100vw;
         align-items: center;
@@ -742,7 +753,8 @@ h1 {
         display: none;
         width: 100vw;
         margin-top: 13rem;
-        background-color: rgb(255, 156, 173);
+        background-color: rgb(12, 18, 41);
+
         flex-direction: column;
         justify-content: center;
         align-items: left;
@@ -763,7 +775,8 @@ h1 {
     }
 
     nav ul {
-        background-color: rgb(255, 156, 173);
+        background-color: rgb(12, 18, 41);
+
         height: 6vh;
         width: 100vw;
         align-items: center;
@@ -875,7 +888,8 @@ h1 {
         display: none;
         width: 100vw;
         margin-top: 13rem;
-        background-color: rgb(255, 156, 173);
+        background-color: rgb(12, 18, 41);
+
         flex-direction: column;
         justify-content: center;
         align-items: left;
@@ -896,7 +910,8 @@ h1 {
     }
 
     nav ul {
-        background-color: rgb(255, 156, 173);
+        background-color: rgb(12, 18, 41);
+
         height: 6vh;
         width: 100vw;
         align-items: center;
@@ -1002,6 +1017,7 @@ h1 {
     .container {
         border: none;
         width: 58%;
+
     }
 
 
@@ -1015,6 +1031,8 @@ h1 {
         display: none;
         margin-top: 13rem;
         margin-left: -6.8rem;
+    box-shadow: 100px 5px 10px rgba(231, 227, 227, 0.2);
+
     }
 
     .menu i {
