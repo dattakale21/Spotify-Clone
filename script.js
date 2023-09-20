@@ -181,3 +181,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+// ------------------------------ Scroll Reveal(Animation) ---------------------------------------
+
+ScrollReveal({
+    reset: true,
+    distance: '80px',
+    duration: 1800,
+    delay: 110
+});
+
+ScrollReveal().reveal('.songList h1,#ho li a', { origin: 'top' });
+ScrollReveal().reveal('.songItem,#masterPlay,.songInfo', { origin: 'bottom' });
+ScrollReveal().reveal('.brand,#previous', { origin: 'left' });
+ScrollReveal().reveal('.dropbtn,#next', { origin: 'right' });
+
+

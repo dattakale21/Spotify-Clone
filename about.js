@@ -15,29 +15,6 @@ menuIcon.addEventListener('click', () => {
 });
 
 
-// By Datta kale 
-
-
-// document.addEventListener("DOMContentLoaded", function () {
-//     const menuIcon = document.querySelector(".menu i");
-//     const cross = document.querySelector(".cross i");
-//     const ho1 = document.querySelector("#ho1"); // Updated to match the CSS id
-
-//     menuIcon.addEventListener("click", function () {
-//         if (ho1.style.display === "block") {
-//             ho1.style.display = "none";
-//             menuIcon.innerHTML = '<i class="fas fa-bars"></i>'; // Change to menu icon
-//         } else {
-//             ho1.style.display = "block";
-//             menuIcon.innerHTML = '<i class="fas fa-times"></i>'; // Change to cross icon
-//         }
-//     });
-
-//     cross.addEventListener("click", function () {
-//         ho1.style.display = "none";
-//         menuIcon.innerHTML = '<i class="fas fa-bars"></i>'; // Change to menu icon
-//     });
-// });
 
 document.addEventListener("DOMContentLoaded", function () {
     const menuIcon = document.querySelector(".menu i");
@@ -54,5 +31,20 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+
+// ------------------------------ Scroll Reveal(Animation) ---------------------------------------
+
+ScrollReveal({
+    reset: true,
+    distance: '80px',
+    duration: 1800,
+    delay: 110
+});
+
+
+ScrollReveal().reveal('.container h1,#ho li a', { origin: 'top' });
+ScrollReveal().reveal('.container,#foot h2', { origin: 'bottom' });
+ScrollReveal().reveal('.brand', { origin: 'left' });
+ScrollReveal().reveal('.dropbtn', { origin: 'right' });
 
 

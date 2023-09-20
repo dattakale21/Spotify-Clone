@@ -87,7 +87,7 @@ nav ul li {
     margin: -7px -7px;
     border-radius: 9px;
     font-size: 16px;
-    margin-top: 23px;
+    /* margin-top: 23px; */
 }
 
 .con {
@@ -107,13 +107,14 @@ h1 {
 #foot {
     height: 6.2vh;
     display: flex;
+    bottom: 0;
     flex-direction: row;
     width: 100vw;
     background-color: black;
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 0;
+
 }
 
 #foot h2 {
@@ -367,6 +368,7 @@ label {
 
     .container div {
         font-size: 40%;
+        margin-top: -4rem;
     }
 
     .cross {
@@ -434,11 +436,10 @@ label {
 
     .container h1 {
         font-size: 270%;
+        margin-top: -14rem;
     }
 
-    .container div {
-        margin-top: -8rem;
-    }
+    
 
     .container #da {
         font-size: 130%;
@@ -446,9 +447,7 @@ label {
         margin-top: 2rem;
     }
 
-    .options {
-        margin-top: -8rem;
-    }
+  
 }
 
 @media (max-width:426px) {

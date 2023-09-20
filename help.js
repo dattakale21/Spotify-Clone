@@ -45,3 +45,18 @@ form.addEventListener('submit', e => {
         .then(response => console.log('Success!', response))
         .catch(error => console.error('Error!', error.message))
 });
+
+// ------------------------------ Scroll Reveal(Animation) ---------------------------------------
+
+ScrollReveal({
+    reset: true,
+    distance: '80px',
+    duration: 1800,
+    delay: 110
+});
+
+
+ScrollReveal().reveal('.container h1,#ho li a', { origin: 'top' });
+ScrollReveal().reveal('#da,#foot h2', { origin: 'bottom' });
+ScrollReveal().reveal('.options label,.brand', { origin: 'left' });
+ScrollReveal().reveal('#reason, #star, #suggestion,.dropbtn', { origin: 'right' });

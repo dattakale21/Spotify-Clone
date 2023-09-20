@@ -20,3 +20,19 @@ document.addEventListener("DOMContentLoaded", function () {
         menuIcon.innerHTML = '<i class="fas fa-bars"></i>'; // Replace cross icon with menu icon
     });
 });
+
+
+// ------------------------------ Scroll Reveal(Animation) ---------------------------------------
+
+ScrollReveal({
+    reset: true,
+    distance: '80px',
+    duration: 1800,
+    delay: 110
+});
+
+
+ScrollReveal().reveal('.container h1,#ho li a', { origin: 'top' });
+ScrollReveal().reveal('.container,#foot h2', { origin: 'bottom' });
+ScrollReveal().reveal('.brand', { origin: 'left' });
+ScrollReveal().reveal('.dropbtn', { origin: 'right' });
