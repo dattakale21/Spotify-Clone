@@ -1010,14 +1010,14 @@ nav ul {
 
     #ho1 {
         display: none;
-        margin-top: 13rem;
-        height: 23vh;
-        margin-left: -6.8rem;
+        margin-top: 18.5rem;
+        height: 21vh;
+        margin-left: -11.59rem;
     }
 
     #ho1 li a {
         display: flex;
-        font-size: 1.3rem;
+        font-size: 1.9rem;
         color: #fff;
         list-style: none;
         text-decoration: none;

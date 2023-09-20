@@ -437,7 +437,7 @@ label {
     }
 
     .container div {
-        margin-top: -3rem;
+        margin-top: -8rem;
     }
 
     .container #da {
@@ -446,7 +446,7 @@ label {
         margin-top: 2rem;
     }
 
-    .options{
+    .options {
         margin-top: -8rem;
     }
 }
@@ -818,8 +818,8 @@ label {
 
     #ho1 {
         display: none;
-        margin-top: 13rem;
-        height: 23vh;
+        margin-top: 14rem;
+        height: 25vh;
         margin-left: -6.7rem;
     }
 
@@ -833,8 +833,10 @@ label {
         justify-content: center;
         padding: 0.4rem 1.2rem
     }
+
     .container h1 {
         font-size: 180%;
+        margin-top: 3rem;
     }
 
     .container {
@@ -849,14 +851,13 @@ label {
     #star,
     #suggestion,
     #reason {
-        font-size: 150%;
+        font-size: 110%;
         width: 60vw;
         margin-bottom: 1rem;
+        margin-top: -4rem;
     }
 
-    .options{
-        margin-top: -8rem;
-    }
+
 
 
 
