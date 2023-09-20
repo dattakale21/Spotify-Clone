@@ -1039,11 +1039,12 @@ h1 {
     .container {
         border: none;
         width: 58%;
+        margin-top: -2rem;
     }
 
 
     .container h1 {
-        font-size: 40%;
+        font-size: 30%;
         line-height: 1.1rem;
     }
 

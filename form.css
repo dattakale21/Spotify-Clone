@@ -975,7 +975,7 @@ nav ul li {
         display: none;
         margin-top: 13rem;
         height: 23vh;
-        margin-left: -6.7rem;
+        margin-left: -6.8rem;
     }
 
     #ho1 li a {
@@ -1140,13 +1140,14 @@ nav ul li {
         height: 60vh;
         width: 58%;
         border: none;
+        margin-top: 1rem;
 
     }
 
     .container form input {
         font-size: 70%;
         padding: 0.5rem 6rem;
-        margin: 0.4rem 0;
+        margin: 0.2rem 0;
     }
 
     .form-group input:hover {
@@ -1161,7 +1162,7 @@ nav ul li {
 
     .container #da {
         font-size: 80%;
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
 }
 

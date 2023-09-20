@@ -1010,9 +1010,9 @@ nav ul {
 
     #ho1 {
         display: none;
-        margin-top: 18rem;
-        height: 19vh;
-        margin-left: -11.5rem;
+        margin-top: 13rem;
+        height: 23vh;
+        margin-left: -6.8rem;
     }
 
     #ho1 li a {
@@ -1025,7 +1025,7 @@ nav ul {
         justify-content: center;
         padding: 0.4rem 1.2rem
     }
-   
+
 
     .brand {
         margin-left: -2.6rem;
