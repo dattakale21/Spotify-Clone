@@ -191,8 +191,8 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.songList h1,#ho li a', { origin: 'top' });
-ScrollReveal().reveal('.songItem,#masterPlay,.songInfo', { origin: 'bottom' });
-ScrollReveal().reveal('.brand,#previous', { origin: 'left' });
+ScrollReveal().reveal('.songItem', { origin: 'bottom' });
+ScrollReveal().reveal('.brand,#previous,.songInfo', { origin: 'left' });
 ScrollReveal().reveal('.dropbtn,#next', { origin: 'right' });
 
 

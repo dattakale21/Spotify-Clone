@@ -817,7 +817,7 @@ label {
 
     #ho1 {
         display: none;
-        margin-top: 14rem;
+        margin-top: 12rem;
         height: 25vh;
         margin-left: -6.7rem;
     }
@@ -835,7 +835,7 @@ label {
 
     .container h1 {
         font-size: 180%;
-        margin-top: 3rem;
+        margin-top: -5rem;
     }
 
     .container {
@@ -852,8 +852,8 @@ label {
     #reason {
         font-size: 110%;
         width: 60vw;
-        margin-bottom: 1rem;
-        margin-top: -4rem;
+        margin-bottom: 2rem;
+        /* margin-top: -4rem; */
     }
 
 
