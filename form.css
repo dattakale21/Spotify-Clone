@@ -714,6 +714,11 @@ nav ul li {
         font-size: 70%;
     }
 
+    .form-group input:hover {
+        padding: 2% 30%;
+        box-shadow: 1px 1px rgb(222, 220, 220);
+    }
+
 
     .dropdown {
         /* display: none;/ */
@@ -832,12 +837,27 @@ nav ul li {
         padding: 0.7rem 8rem;
     }
 
+    .form-group input:hover {
+        padding: 4% 30%;
+        box-shadow: 1px 1px rgb(222, 220, 220);
+    }
+
     .container h1 {
         font-size: 240%;
     }
 
     .container #da {
         font-size: 85%;
+    }
+
+
+}
+
+
+@media (max-width:376px) {
+    .form-group input:hover {
+        padding: 4% 27%;
+        box-shadow: 1px 1px rgb(222, 220, 220);
     }
 
 
@@ -926,6 +946,12 @@ nav ul li {
     .container form input {
         font-size: 70%;
         padding: 0.7rem 4rem;
+    }
+
+
+    .form-group input:hover {
+        padding: 4% 27%;
+        box-shadow: 1px 1px rgb(222, 220, 220);
     }
 
     .container h1 {
@@ -1018,6 +1044,11 @@ nav ul li {
         font-size: 70%;
         padding: 0.7rem 5rem;
         margin: 0.5rem 0;
+    }
+
+    .form-group input:hover {
+        padding: 4% 30%;
+        box-shadow: 1px 1px rgb(222, 220, 220);
     }
 
     .container h1 {
@@ -1114,14 +1145,18 @@ nav ul li {
 
     .container form input {
         font-size: 70%;
-        padding: 0.4rem 6rem;
-        margin: 0.2rem 0;
+        padding: 0.5rem 6rem;
+        margin: 0.4rem 0;
+    }
+
+    .form-group input:hover {
+        padding: 3% 22%;
+        box-shadow: 1px 1px rgb(222, 220, 220);
     }
 
     .container h1 {
         font-size: 260%;
-        /* margin-bottom: 3rem; */
-        /* margin-top: -3rem; */
+        margin-bottom: 3rem;
     }
 
     .container #da {
@@ -1199,6 +1234,10 @@ nav ul li {
         line-height: 1.1rem;
     }
 
+    .form-group input:hover {
+        padding: 4% 27%;
+        box-shadow: 1px 1px rgb(222, 220, 220);
+    }
 }
 
 /* By Datta kale */

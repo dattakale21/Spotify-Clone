@@ -1014,7 +1014,11 @@ h1 {
 
         display: none;
         margin-top: 13rem;
-        margin-left: -6.7rem;
+        margin-left: -6.72rem;
+    }
+
+    .menu i {
+        margin-top: -0.1rem;
     }
 
     #foot {

@@ -777,7 +777,7 @@ label {
     #op {
         font-size: 150%;
         width: 60vw;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
     }
 
     .container h1 {
@@ -791,8 +791,8 @@ label {
 
     .container #da {
         font-size: 110%;
-        padding: 0.6rem 1.8rem;
-        margin-top: 2rem;
+        padding: 0.6rem 1.3rem;
+        margin-top: 1rem;
     }
 }
 
@@ -805,13 +805,14 @@ label {
 
     }
 
-    #ho1 li a{
+    #ho1 li a {
         font-size: 1.3rem;
     }
 
-    .container h1{
-font-size: 180%;
+    .container h1 {
+        font-size: 180%;
     }
+
     .container {
         margin-top: 1rem;
     }
@@ -895,7 +896,8 @@ font-size: 180%;
         padding: 0.7rem 4rem;
         margin: 0.5rem 0;
     }
-    #ho{
+
+    #ho {
         display: none;
     }
 
