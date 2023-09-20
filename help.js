@@ -60,3 +60,4 @@ ScrollReveal().reveal('.container h1,#ho li a', { origin: 'top' });
 ScrollReveal().reveal('#da,#foot h2', { origin: 'bottom' });
 ScrollReveal().reveal('.options label,.brand', { origin: 'left' });
 ScrollReveal().reveal('#reason, #star, #suggestion', { origin: 'right' });
+

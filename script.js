@@ -187,10 +187,18 @@ ScrollReveal({
     reset: true,
     distance: '80px',
     duration: 1800,
-    delay: 110
+    delay: 400
 });
 
-ScrollReveal().reveal('.songList h1,#ho li a,#masterPlay,#previous,#next', { origin: 'top' });
+// ScrollReveal1({
+//     reset: true,
+//     distance: '80px',
+//     duration: 700,
+//     delay: 20
+// });
+
+
+ScrollReveal().reveal('.songList h1,#ho li a', { origin: 'top' });
 ScrollReveal().reveal('.songItem', { origin: 'bottom' });
 ScrollReveal().reveal('.brand', { origin: 'left' });
 ScrollReveal().reveal('', { origin: 'right' });
