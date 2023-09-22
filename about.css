@@ -95,7 +95,7 @@ nav ul li {
     align-items: center;
     color: #fff;
     font-size: 23px;
-   
+
 }
 
 .container div {
@@ -177,7 +177,7 @@ h1 {
 
 .dropdown .dropbtn:hover {
     padding: 6px 13px;
-    border: 1px solid #fff;
+    border: 0.5px solid #fff;
     background-color: rgb(134, 128, 128);
 
 }
@@ -185,7 +185,7 @@ h1 {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgb(227, 229, 238);
+    background-color: rgb(17, 54, 98);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -200,15 +200,15 @@ h1 {
 
 .dropdown-content a {
     float: none;
-    color: black;
-    padding: 6px 16px;
+    color: #fff;
+    padding: 0.2rem 0.1rem;
     text-decoration: none;
     display: block;
     text-align: left;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 23px;
+    font-size: 1rem;
     border: 1px solid gray;
 }
 
@@ -853,13 +853,9 @@ h1 {
 }
 
 @media (max-width:320px) {
-
-
-
     html {
         font-size: 30%;
     }
-
 
     .dropdown {
         display: none;
@@ -884,12 +880,10 @@ h1 {
     }
 
     #ho1 {
-        /* display: flex; */
         display: none;
         width: 100vw;
         margin-top: 13rem;
         background-color: rgb(12, 18, 41);
-
         flex-direction: column;
         justify-content: center;
         align-items: left;
@@ -904,20 +898,16 @@ h1 {
         color: #fff;
         list-style: none;
         text-decoration: none;
-        /* flex-direction: row; */
         justify-content: center;
         padding: 0.4rem 1.2rem
     }
 
     nav ul {
         background-color: rgb(12, 18, 41);
-
         height: 6vh;
         width: 100vw;
         align-items: center;
-        /* margin-left: 1rem; */
     }
-
 
     .menu {
         position: absolute;
@@ -928,10 +918,7 @@ h1 {
 
     .menu i {
         font-size: 1.4rem;
-        /* Adjust the size as needed */
         color: white;
-        /* margin-right: -1rem; */
-        /* Icon color */
     }
 
     #foot {
@@ -954,24 +941,13 @@ h1 {
         font-size: 70%;
     }
 
-
     .dropdown {
-        /* display: none;/ */
         margin-top: -0.9rem;
     }
 
     .dropdown .dropbtn {
         font-size: 0.7rem;
     }
-
-    /* .container h1 {
-        font-size: 60%;
-        margin:0 -1rem;
-    } */
-
-
-
-
 
     #foot {
         position: absolute;
@@ -997,7 +973,6 @@ h1 {
         width: 58%;
     }
 
-
     .container h1 {
         font-size: 40%;
     }
@@ -1020,19 +995,16 @@ h1 {
 
     }
 
-
     .container h1 {
         font-size: 50%;
         line-height: 0.8rem;
     }
 
     #ho1 {
-
         display: none;
         margin-top: 13rem;
         margin-left: -6.8rem;
-    box-shadow: 100px 5px 10px rgba(231, 227, 227, 0.2);
-
+        box-shadow: 100px 5px 10px rgba(231, 227, 227, 0.2);
     }
 
     .menu i {

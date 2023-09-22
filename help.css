@@ -223,7 +223,7 @@ label {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgb(227, 229, 238);
+    background-color: rgb(17, 54, 98);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -238,18 +238,17 @@ label {
 
 .dropdown-content a {
     float: none;
-    color: black;
-    padding: 6px 16px;
+    color:#fff;
+    padding: 0.2rem 0.1rem;
     text-decoration: none;
     display: block;
     text-align: left;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 23px;
+    font-size: 1rem;
     border: 1px solid gray;
 }
-
 .dropdown-content a:hover {
     background-color: #ddd;
 }
@@ -878,6 +877,14 @@ label {
 
     .container #da {
         margin-top: 1rem;
+    }
+
+    .head h1{
+        margin-top: -11rem;
+    }
+    .container div{
+        font-size: 40%;
+        margin-top: -10rem;
     }
 }
 
