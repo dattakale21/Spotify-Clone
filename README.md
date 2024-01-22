@@ -1,5 +1,5 @@
 
-[Screenshot](/1a.png)
+[Screenshot](1a.png)
 
 # Spotify-Clone
 
