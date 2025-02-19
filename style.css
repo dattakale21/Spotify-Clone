@@ -362,6 +362,20 @@ nav ul {
         width: 32vw;
         height: 12vh;
     }
+    .songList {
+        max-height: 400px; /* Adjust height as needed */
+        overflow-y: auto; /* Enable vertical scrolling */
+        padding-right: 10px; /* Prevent scrollbar from overlapping text */
+    }
+    .songList::-webkit-scrollbar {
+        width: 6px;
+    }
+    
+    .songList::-webkit-scrollbar-thumb {
+        background-color: #1DB954; /* Spotify green */
+        border-radius: 10px;
+        display:none;
+    }
 
     .songList h1 {
         font-size: 2rem;
