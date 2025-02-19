@@ -1,3 +1,6 @@
+
+![Screenshot](1a.png)
+
 # Spotify-Clone
 
 This repository contains a music website built with HTML, CSS, and JS. 
